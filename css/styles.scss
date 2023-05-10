@@ -7,21 +7,19 @@ body {
 	font-family: 'Mukta', sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
-	display: flex;
 	/* align-items: center; */
 	justify-content: center;
 	min-height: 100vh;
-
-	background: url(waterCircle.webp);
-	background-repeat: no-repeat;
-	background-size: auto;
 }
+
+#bg { position: fixed; top: 0; left: 0; }
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 	font-family: 'Sans Mateo', sans-serif;
-
 }
 
 ul, ol {
@@ -46,12 +44,6 @@ img {
 	display: block;
 	max-width: 100%;
 	height: auto;
-}
-/* */
-imgHero {
-	width: 200px;
-	height: 300px;
-	object-fit: cover;
 }
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
@@ -117,7 +109,7 @@ button {
 			margin: 0;
 			width: 3rem;
 			height: 3rem;
-			background: $black;
+			background: #dc8344;
 			border-radius: 1.625rem;
 			.icon {
 				@include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
@@ -155,7 +147,7 @@ button {
 			bottom: 0;
 			padding: 0.75rem 0;
 			margin: 0 0 0 1.85rem;
-			color: $black;
+			color: $white;
 			font-weight: 700;
 			line-height: 1.6;
 			text-align: center;
@@ -198,10 +190,30 @@ button {
 /* accordion */
 .accordion {
 	--bs-accordion-bg: #fff, opacity(0);
+	--bs-accordion-active-bg: #fff, opacity(0)
+
+}
+
+.accordion .h1 {
+	--bs-accordion-bg: #fff, opacity(0);
+	color: #f8f9fa;
+}
+
+.underrubrik {
+	position: absolute;
+	color: #f8f9fa;
+}
+
+.accordion-header .h2 {
+	color: #f8f9fa;
+	position: absolute;
 }
 
 
-
+.accordion-body .p {
+	color: #f8f9fa;
+	position: absolute;
+}
 
 
 
