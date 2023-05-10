@@ -12,7 +12,7 @@ body {
 	min-height: 100vh;
 }
 
-#bg { position: fixed; top: 0; left: 0; }
+#bg { position: absolute; top: 0; left: 0; }
 .bgwidth { width: 100%; }
 .bgheight { height: 100%; }
 
@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 	font-family: 'Sans Mateo', sans-serif;
+	color: whitesmoke;
 }
 
 ul, ol {
@@ -73,7 +74,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import url('https://fonts.googleapis.com/css?family=Mukta:700');
 
 $bg: #050550;
-$white: #fff;
+$white: whitesmoke;
 $black: #282936;
 
 @mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
@@ -131,8 +132,8 @@ button {
 						right: 0.0625rem;
 						width: 0.625rem;
 						height: 0.625rem;
-						border-top: 0.125rem solid #fff;
-						border-right: 0.125rem solid #fff;
+						border-top: 0.125rem solid whitesmoke;
+						border-right: 0.125rem solid whitesmoke;
 						transform: rotate(45deg);
 					}
 				}
@@ -189,32 +190,38 @@ button {
 
 /* accordion */
 .accordion {
-	--bs-accordion-bg: #fff, opacity(0);
-	--bs-accordion-active-bg: #fff, opacity(0)
+	--bs-accordion-bg: $white, opacity(0);
+	--bs-accordion-active-bg: $white, opacity(0)
 
 }
 
 .accordion .h1 {
-	--bs-accordion-bg: #fff, opacity(0);
-	color: #f8f9fa;
+	--bs-accordion-bg: $white, opacity(0);
+	color: $white;
+}
+.accordion-button{
+	color: $white;
+	font-weight: bolder;
 }
 
 .underrubrik {
-	position: absolute;
-	color: #f8f9fa;
-}
-
-.accordion-header .h2 {
-	color: #f8f9fa;
-	position: absolute;
+	position: relative;
+	color: $white;
 }
 
 
-.accordion-body .p {
-	color: #f8f9fa;
-	position: absolute;
+.accordion-body {
+	color: $white;
+	position: relative;
 }
 
+.accordion-collapse .show {
+	color: $white;
+}
 
+.accordion-button::after {
+	color: $white;
+	font-weight: bolder;
+}
 
 
