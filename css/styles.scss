@@ -4,6 +4,17 @@
 
 body {
 	margin: 0;
+	font-family: 'Mukta', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	min-height: 100vh;
+
+	background: url(waterCircle.webp);
+	background-repeat: no-repeat;
+	background-size: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,7 +80,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import url('https://fonts.googleapis.com/css?family=Mukta:700');
 
-$bg: #f3f8fa;
+$bg: #050550;
 $white: #fff;
 $black: #282936;
 
@@ -82,18 +93,6 @@ $black: #282936;
 	&::before, &::after {
 		box-sizing: border-box;
 	}
-}
-
-body {
-	font-family: 'Mukta', sans-serif;
-	font-size: 1rem;
-	line-height: 1.5;
-	display: none;
-	/* align-items: center; */
-	justify-content: center;
-	margin: 0;
-	min-height: 100vh;
-	background: $bg;
 }
 
 button {
@@ -179,10 +178,6 @@ button {
 	}
 }
 
-
-Body {
-	display: flex;
-}
 
 /*
 @supports (display: grid) {
