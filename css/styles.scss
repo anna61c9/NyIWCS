@@ -18,13 +18,17 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
-@import url('https://fonts.googleapis.com/css?family-mukta:700');
+
+
+/* CTA */
+
+@import url('https://fonts.googleapis.com/css?family=Mukta:700');
 
 $bg: #f3f8fa;
 $white: #fff;
 $black: #282936;
 
-@mixin transsition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
+@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
 	transition: $property $duration $ease;
 }
 
@@ -36,13 +40,15 @@ $black: #282936;
 }
 
 body {
-	font-family: 'mukta', sans-serif;
+	font-family: 'Mukta', sans-serif;
 	font-size: 1rem;
-	line-heigt: 1.5;
+	line-height: 1.5;
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 	justify-content: center;
 	margin: 0;
+	min-height: 100vh;
+	background: $bg;
 }
 
 button {
@@ -61,7 +67,7 @@ button {
 		width: 12rem;
 		height: auto;
 		.circle {
-			@include transsition(all, 0.45s, cubic-beizer(0.65,0,.076,1));
+			@include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
 			position: relative;
 			display: block;
 			margin: 0;
@@ -70,14 +76,14 @@ button {
 			background: $black;
 			border-radius: 1.625rem;
 			.icon {
-				@include transsition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+				@include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
 				position: absolute;
 				top: 0;
 				bottom: 0;
 				margin: auto;
 				background: $white;
 				&.arrow {
-					@include transsition(all, 45s, cubic-bezier(0.65,0,.076,1));
+					@include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
 					left: 0.625rem;
 					width: 1.125rem;
 					height: 0.125rem;
@@ -87,8 +93,8 @@ button {
 						content: '';
 						top: -0.25rem;
 						right: 0.0625rem;
-						width: 0.0625rem;
-						height: 0.0625rem;
+						width: 0.625rem;
+						height: 0.625rem;
 						border-top: 0.125rem solid #fff;
 						border-right: 0.125rem solid #fff;
 						transform: rotate(45deg);
@@ -97,22 +103,66 @@ button {
 			}
 		}
 		.button-text {
-			@include transsition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+			@include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
 			position: absolute;
 			top: 0;
 			left: 0;
 			right: 0;
 			bottom: 0;
 			padding: 0.75rem 0;
-			margin: 0 0 0 1,85rem;
+			margin: 0 0 0 1.85rem;
 			color: $black;
 			font-weight: 700;
-			line-weight: 1.6;
+			line-height: 1.6;
 			text-align: center;
-			text-decoration: uppercase;
+			text-transform: uppercase;
 		}
 	}
 	&:hover {
-
+		.circle {
+			width: 100%;
+			.icon {
+				&.arrow {
+					background: $white;
+					transform: translate(1rem, 0);
+				}
+			}
+		}
+		.button-text {
+			color: $white;
+		}
 	}
 }
+
+
+Body {
+	display: flex;
+}
+
+/*
+@supports (display: grid) {
+	body {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 0.625rem;
+		grid-template-areas: ". main main ." ". main main .";
+	}
+
+	#container {
+		grid-area: main;
+		align-self: center;
+		justify-self: center;
+	}
+}*/
+
+/* accordion */
+.accordion {
+	--bs-accordion-bg: #fff, opacity(0);
+}
+
+
+
+
+
+
+
