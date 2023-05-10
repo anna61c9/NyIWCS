@@ -36,6 +36,12 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+/* */
+imgHero {
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+}
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
