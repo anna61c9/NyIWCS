@@ -88,6 +88,11 @@ $black: #282936;
 	}
 }
 
+.CTA {
+	justify-content: flex-end;
+	display: grid;
+}
+
 button {
 	position: relative;
 	display: inline-block;
@@ -222,6 +227,18 @@ button {
 .accordion-button::after {
 	color: $white;
 	font-weight: bolder;
+	border-bottom: whitesmoke;
 }
 
+.accordion-header {
+	border-bottom: whitesmoke;
+}
+
+/* sociale medier */
+
+.socialMedia {
+	position: relative;
+	justify-content: flex-end;
+	display: grid;
+}
 
