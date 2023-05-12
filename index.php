@@ -72,8 +72,7 @@
     <div class="row">
         <div class="col-12 col-md-8 col-lg-12 mx-auto">
 
-            <div class="accordion accordion-flush id=" accordionFlushExample
-            ">
+            <div class="accordion accordion-flush id="accordionFlushExample">
 
             <div class="row underrubrik m-2"><h1>Rubrik</h1></div>
 
@@ -148,6 +147,9 @@
         </div>
     </div>
 </div>
+
+<?php include 'bottom.php'; ?>
+
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
