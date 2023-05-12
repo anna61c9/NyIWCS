@@ -72,7 +72,8 @@
     <div class="row">
         <div class="col-12 col-md-8 col-lg-12 mx-auto">
 
-            <div class="accordion accordion-flush id="accordionFlushExample">
+            <div class="accordion accordion-flush id=" accordionFlushExample
+            ">
 
             <div class="row underrubrik m-2"><h1>Rubrik</h1></div>
 
@@ -142,9 +143,30 @@
 <div class="container-fluid justify-content-end socialMedia">
     <div class="row">
         <div class="col m-2">
-            <a href="https://www.linkedin.com/company/iridiumwaterproof/?originalSubdomain=dk"><img src="images/inHvid.png" class="img m-2" alt="linkedin"></a>
+            <a href="https://www.linkedin.com/company/iridiumwaterproof/?originalSubdomain=dk"><img
+                        src="images/inHvid.png" class="img m-2" alt="linkedin"></a>
             <a href="https://www.youtube.com/@IWCSDenmark"><img src="images/youtube.png" class="img m-2" alt="Youtube"></a>
         </div>
+    </div>
+</div>
+<br><br><br><br><br><br>
+
+<video width="100%" height="100%" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+</video>
+
+<br><br><br><br><br><br>
+<div class="container justify-content-center links">
+    <div class="row text-center">
+        <a href="url" style="color: #0c63e4;">link text</a>
+    </div><br>
+    <div class="row text-center">
+        <a href="url" style="color: #0c63e4;">link text</a>
+    </div><br>
+    <div class="row text-center">
+        <a href="url" style="color: #0c63e4;">link text</a>
     </div>
 </div>
 
