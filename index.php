@@ -16,7 +16,7 @@
 </head>
 <body>
 <!-- Cover -->
-<img id="bg" src="images/waterCircle.webp" alt="">
+<img id="bg" src="images/waterCircleNy.webp" alt="">
 
 <?php include 'nav.php'; ?>
 
@@ -161,7 +161,7 @@
         <div class="row">
 
             <div class="card m-4 mx-auto">
-                <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                <img src="images/card%20A.png"
                      alt="">
                 <div class="card-content">
                     <h2>
@@ -175,7 +175,7 @@
             </div>
 
             <div class="card m-4 mx-auto">
-                <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                <img src="images/card%20B.png"
                      alt="">
                 <div class="card-content">
                     <h2>
@@ -189,7 +189,7 @@
             </div>
 
             <div class="card m-4 mx-auto">
-                <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                <img src="images/card%20C.png"
                      alt="">
                 <div class="card-content">
                     <h2>
