@@ -199,7 +199,7 @@
 <br><br><br><br><br><br>
 <div class="container justify-content-center links">
     <div class="row text-center">
-        <a href="url" style="color: #0c63e4;">Handelsbetingelser</a>
+        <a href="handelsbetingelser.php" style="color: #0c63e4;">Handelsbetingelser</a>
     </div>
     <br>
     <div class="row text-center">

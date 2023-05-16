@@ -21,7 +21,7 @@
 
 
 <div class="container">
-    <div class="row mb-5"><h1>CSR</h1></div>
+    <div class="row mb-5"><h1>Handelsbetingelser</h1></div>
     <div class="row"><h3>Overskrift #1</h3></div>
     <p>lorem ipsum <a href="url" style="color: #0c63e4;">GDBR</a> lorem ipsum</p>
 </div>
@@ -43,3 +43,4 @@
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
