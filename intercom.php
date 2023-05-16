@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>Intercom</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -18,16 +18,24 @@
     <meta name="copyright" content="Information om copyright">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/intercom.css" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
-<!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 <?php include 'nav.php'; ?>
 
+<!-- Back -->
+<br>
+<div class="container-fluid p-5">
+    <div class="row p-5">
+        <div class="col">
+            <a href="index.php"><img src="images/back.png" class="img" style="width: 3em" alt="linkedin"></a>
+        </div>
+    </div>
+</div>
+<br>
 
 
 
