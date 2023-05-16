@@ -26,8 +26,15 @@
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
+<?php include 'nav.php'; ?>
 
-<!-- Her skal sidens indhold ligge -->
 
+
+
+
+
+
+<?php include 'bottom.php'; ?>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
