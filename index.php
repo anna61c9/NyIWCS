@@ -203,7 +203,7 @@
     </div>
     <br>
     <div class="row text-center">
-        <a href="url" style="color: #0c63e4;">CSR</a>
+        <a href="csr.php" style="color: #0c63e4;">CSR</a>
     </div>
     <br>
     <div class="row text-center">
