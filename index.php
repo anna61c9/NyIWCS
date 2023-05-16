@@ -148,14 +148,7 @@
 </video>
 
 
-<!-- Cards + links -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap"
-      rel="stylesheet">
-<link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
-
+<!-- Cards -->
 <main>
     <div class="container-fluid">
         <div class="row">
@@ -165,7 +158,7 @@
                      alt="">
                 <div class="card-content">
                     <h2>
-                        Header
+                        Mange til mange
                     </h2>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
@@ -179,7 +172,7 @@
                      alt="">
                 <div class="card-content">
                     <h2>
-                        Header
+                        Støjreducerende
                     </h2>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
@@ -193,7 +186,7 @@
                      alt="">
                 <div class="card-content">
                     <h2>
-                        Header
+                        Kontrol
                     </h2>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
@@ -209,15 +202,15 @@
 <br><br><br><br><br><br>
 <div class="container justify-content-center links">
     <div class="row text-center">
-        <a href="url" style="color: #0c63e4;">link text</a>
+        <a href="url" style="color: #0c63e4;">Handelsbetingelser</a>
     </div>
     <br>
     <div class="row text-center">
-        <a href="url" style="color: #0c63e4;">link text</a>
+        <a href="url" style="color: #0c63e4;">CSR</a>
     </div>
     <br>
     <div class="row text-center">
-        <a href="url" style="color: #0c63e4;">link text</a>
+        <a href="url" style="color: #0c63e4;">Datablad</a>
     </div>
 </div>
 
