@@ -20,7 +20,7 @@
 
 <?php include 'nav.php'; ?>
 
-<div class="underrubrik container-fluid justify-content-center">
+<div class="underrubrik container-fluid justify-content-center" style="opacity: 0;">
     <div class="col">
 
         <div class="row mx-auto">
@@ -33,7 +33,7 @@
 
     </div>
 </div>
-<br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 
 <!-- Accordion -->
@@ -53,7 +53,7 @@
         </div>
     </div>
 
-    <br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
 
     <div class="row">
         <div class="col-12 col-md-8 col-lg-12 mx-auto">
