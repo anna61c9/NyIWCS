@@ -222,6 +222,7 @@ button {
 .accordion-body {
 	color: $white;
 	position: relative;
+	font-family: 'old baskerville';
 }
 
 .accordion-collapse .show {
@@ -232,6 +233,7 @@ button {
 	color: $white;
 	font-weight: bolder;
 	border-bottom: whitesmoke;
+	outline-color: #e9ecef;
 }
 
 .accordion-header {
@@ -272,7 +274,7 @@ main {
 }
 
 .card {
-	width: 20rem;
+	width: 16rem;
 	height: 25rem;
 	border-radius: 10px;
 	overflow: hidden;
@@ -301,7 +303,7 @@ main {
 		font-family: 'Bahnschrift', sans-serif;
 		font-weight: bolder;
 		text-transform: uppercase;
-		font-size: 2em;
+		font-size: 1.5em;
 		font-stretch: condensed;
 	}
 
@@ -310,6 +312,7 @@ main {
 		opacity: 0;
 		max-width: 80%;
 		transition: opacity .3s ease-out;
+		font-size: 1em;
 	}
 
 	p {
@@ -317,7 +320,7 @@ main {
 	}
 
 	&:hover h2 {
-		inset: auto auto 210px 30px;
+		inset: auto auto 180px 30px;
 		transition: inset .3s ease-out;
 	}
 

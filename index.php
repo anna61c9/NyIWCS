@@ -37,7 +37,7 @@
 
 
 <!-- Accordion -->
-<div class="container-fluid justify-content-center" style="width: 70%;">
+<div class="container-fluid justify-content-center" style="width: 60%;">
 
     <!-- CTA -->
     <div id="container-fluid d-flex">
@@ -61,22 +61,24 @@
             <div class="accordion accordion-flush id=" accordionFlushExample
             ">
 
-            <div class="row underrubrik m-2"><h1>Rubrik</h1></div>
+            <div class="row underrubrik m-2"><h1>IWCS x Raymarine</h1></div>
 
-            <div class="accordion-item">
+            <div class="accordion-item active">
                 <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseOne" aria-expanded="false"
                             aria-controls="flush-collapseOne">
-                        Accordion Item #1
+                        Overskrift #1
                     </button>
                 </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne"
                      data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                        demonstrate
-                        the
-                        <code>.accordion-flush</code> class. This is the first item's accordion body.
+                    <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Fusce quis lectus quis sem lacinia nonummy.
+                        Proin mollis lorem non dolor. In hac habitasse platea dictumst. Nulla ultrices odio.
+                        Donec augue. Phasellus dui. Maecenas facilisis nisl vitae nibh.
+                        Proin vel seo est vitae eros pretium dignissim. Aliquam aliquam sodales orci.
+                        Suspendisse potenti. Nunc adipiscing euismod arcu. Quisque facilisis mattis lacus.
                     </div>
                 </div>
             </div>
@@ -85,17 +87,15 @@
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseTwo" aria-expanded="false"
                             aria-controls="flush-collapseTwo">
-                        Accordion Item #2
+                        Overskrift #2
                     </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                      data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                        demonstrate
-                        the
-                        <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
-                        this being
-                        filled with some actual content.
+                    <div class="accordion-body">Fusce bibendum, velit in venenatis viverra, tellus ligula dignissim felis,
+                        quis euismod mauris tellus ut urna. Proin scelerisque. Nulla in mi. Integer ac leo.
+                        Nunc urna ligula, gravida a, pretium vitae, bibendum nec, ante. A
+                        liquam ullamcorper iaculis lectus. Sed vel dui.
                     </div>
                 </div>
             </div>
@@ -104,21 +104,17 @@
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseThree" aria-expanded="false"
                             aria-controls="flush-collapseThree">
-                        Accordion Item #3
+                        Overskrift #3
                     </button>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse"
                      aria-labelledby="flush-headingThree"
                      data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                        demonstrate
-                        the
-                        <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-                        exciting
-                        happening here in terms of content, but just filling up the space to make it look, at least
-                        at
-                        first
-                        glance, a bit more representative of how this would look in a real-world application.
+                    <div class="accordion-body">Etiam lacinia risus vitae lacus. Aliquam elementum imperdiet turpis.
+                        In id metus. Mauris eu nisl. Nam pharetra nisi nec enim.
+                        Nulla aliquam, tellus sed laoreet blandit, eros urna vehicula lectus,
+                        et vulputate mauris arcu ut arcu. Praesent eros metus lirum larum,
+                        accumsan a, malesuada et, commodo vel, nulla. Aliquam sagittis auctor sapien. Morbi a nibh.
                     </div>
                 </div>
             </div>
@@ -137,7 +133,7 @@
         </div>
     </div>
 </div>
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 
 <!-- Video -->
@@ -146,14 +142,14 @@
     <source src="movie.ogg" type="video/ogg">
     Your browser does not support the video tag.
 </video>
-
+<br><br><br>
 
 <!-- Cards -->
 <main>
     <div class="container-fluid">
         <div class="row">
 
-            <div class="card m-4 mx-auto">
+            <div class="card m-3 mx-auto">
                 <img src="images/card%20A.png"
                      alt="">
                 <div class="card-content">
@@ -167,7 +163,7 @@
                 </div>
             </div>
 
-            <div class="card m-4 mx-auto">
+            <div class="card m-3 mx-auto">
                 <img src="images/card%20B.png"
                      alt="">
                 <div class="card-content">
@@ -181,7 +177,7 @@
                 </div>
             </div>
 
-            <div class="card m-4 mx-auto">
+            <div class="card m-3 mx-auto">
                 <img src="images/card%20C.png"
                      alt="">
                 <div class="card-content">
