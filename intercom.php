@@ -27,17 +27,38 @@
 <?php include 'nav.php'; ?>
 
 <!-- Back -->
-<br>
 <div class="container-fluid p-5">
     <div class="row p-5">
         <div class="col">
-            <a href="index.php"><img src="images/back.png" class="img" style="width: 3em" alt="linkedin"></a>
+            <a href="index.php"><img src="images/back.png" class="img" style="width: 3em" alt="back"></a>
+        </div>
+    </div>
+</div>
+
+
+<div class="container text">
+    <div class="row" style="height: 12rem;">
+    </div>
+</div>
+
+<div class="container text">
+    <div class="row">
+        <div class="col">
+        </div>
+
+        <div class="col text-end" style="font-family: 'Bahnschrift', sans-serif; font-size: 4rem; font-weight: bolder; color: #c5e8ef;">
+            Make sound bright
+        </div>
+
+        <div class="col" style="color: #c5e8ef;">
+            <br><p>IWCS are known for their
+            understanding that effective
+            communication is paramount
+                in high-stress scenarios.</p>
         </div>
     </div>
 </div>
 <br>
-
-
 
 
 
