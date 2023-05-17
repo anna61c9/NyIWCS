@@ -29,7 +29,7 @@
         </div>
 
         <div class="row mx-auto">
-            <h2>Communication can save lifes</h2>
+            <h2>Communication can save lives</h2>
         </div>
 
     </div>
@@ -195,6 +195,52 @@
     </div>
 </main>
 
+<!-- footer -->
+<footer>
+    <div class="container-fluid col-12" style="background:#5c636a">
+        <div class="row">
+            <div class="contact col-auto" style="display: flex; align-items: center;">
+                <img src="images/mail.png" alt="telephone number" style="width:60px; margin: 0 0 0 10px;">
+                <div class="col-auto" style="display: flex; justify-content: center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="4" height="150" viewBox="0 0 4 422.788">
+                        <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
+                              transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="10"/>
+                    </svg>
+                </div>
+                <p class="col-auto" style="margin: 0 0 0 10px; display: flex; align-items: center">+45 43 43 26
+                    26</p>
+            </div>
+            <div class="row">
+                <div class="mail col-mb-5 col-lg-5" style="display: flex; align-items: center;">
+                    <a href="mailto:info@iwcs.eu"><img src="images/mail.png" alt="mail" style="width:60px"></a>
+                    <div class="col-auto" style="display: flex; justify-content: center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="150" viewBox="0 0 4 422.788">
+                            <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
+                                  transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="10"/>
+                        </svg>
+                    </div>
+                    <a href="mailto:info@iwcs.eu"
+                       style="margin-left: 10px; color: black; font-size: 20px;">info@iwcs.eu</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col-mb-6 col-lg-6" style="display: flex; align-items: center;">
+                    <p style="margin: 0 0 0 10px; display: flex; align-items: center">Address</p>
+                    <div class="col-1 col-mb-1 col-lg-1" style="display: flex; justify-content: center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="150" viewBox="0 0 4 422.788">
+                            <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
+                                  transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="10"/>
+                        </svg>
+                    </div>
+                    <p style="margin: 0 0 0 10px; display: flex; align-items: center">Porthusvej 7A, 3490 Kvistgård
+                        Denmark</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
 <!-- Links -->
 <br><br><br><br><br><br>
 <div class="container justify-content-center links">
@@ -210,6 +256,7 @@
         <a href="url" style="color: #0c63e4;">Datablad</a>
     </div>
 </div>
+
 
 <?php include 'bottom.php'; ?>
 
