@@ -27,8 +27,8 @@
 <?php include 'nav.php'; ?>
 
 <!-- Back -->
-<div class="container-fluid p-5">
-    <div class="row p-5">
+<div class="container-fluid">
+    <div class="row p-2">
         <div class="col">
             <a href="index.php"><img src="images/back.png" class="img" style="width: 3em" alt="back"></a>
         </div>
@@ -37,7 +37,7 @@
 
 
 <div class="container text">
-    <div class="row" style="height: 12rem;">
+    <div class="row" style="height: 20rem;">
     </div>
 </div>
 
