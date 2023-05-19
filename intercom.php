@@ -24,10 +24,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
+<img id="bg" src="images/demoBackdrop.png" alt="background">
+
 <?php include 'nav.php'; ?>
 
 <!-- Back -->
-<div class="container-fluid">
+<div class="container-fluid position-relative">
     <div class="row p-2">
         <div class="col">
             <a href="index.php"><img src="images/back.png" class="img" style="width: 3em" alt="back"></a>
@@ -41,7 +44,7 @@
     </div>
 </div>
 
-<div class="container text">
+<div class="container text position-relative">
     <div class="row">
         <div class="col">
         </div>
@@ -64,6 +67,7 @@
 
 
 <?php include 'bottom.php'; ?>
+
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
