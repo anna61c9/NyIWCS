@@ -151,11 +151,12 @@
         <div class="row">
 
             <div class="card m-3 mx-auto">
+                <img src="images/Cardmany.webp" alt="">
                 <img src="images/card%20A.png"
                      alt="">
                 <div class="card-content">
                     <h2>
-                        Mange til mange
+                        Many to many
                     </h2>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
@@ -165,11 +166,12 @@
             </div>
 
             <div class="card m-3 mx-auto">
+                <img src="images/card2.webp" alt="">
                 <img src="images/card%20B.png"
                      alt="">
                 <div class="card-content">
                     <h2>
-                        Støjreducerende
+                        Noise reduction
                     </h2>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
@@ -179,11 +181,12 @@
             </div>
 
             <div class="card m-3 mx-auto">
+                <img src="images/card4.webp" alt="">
                 <img src="images/card%20C.png"
                      alt="">
                 <div class="card-content">
                     <h2>
-                        Kontrol
+                        Control panel
                     </h2>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
