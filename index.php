@@ -159,8 +159,7 @@
                         Many to many
                     </h2>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
-                        voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque.
+                        Headset can be connected to multiple devices and used by multiple users, all controllable.
                     </p>
                 </div>
             </div>
@@ -174,8 +173,7 @@
                         Noise reduction
                     </h2>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
-                        voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque.
+                        Advanced noise-canceling blocks all background noise, ensuring clear communication.
                     </p>
                 </div>
             </div>
@@ -189,8 +187,7 @@
                         Control panel
                     </h2>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste,
-                        voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque.
+                        Allows for easy and elegant control of the iriSound Intelligent Intercom system through MFD.
                     </p>
                 </div>
             </div>
