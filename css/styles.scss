@@ -259,7 +259,7 @@ button {
 
 
 
-
+/* cards */
 
 // Colors
 $color-primary-white: rgb(240, 240, 240);
@@ -320,7 +320,7 @@ main {
 	}
 
 	&:hover h2 {
-		inset: auto auto 180px 30px;
+		inset: auto auto 100px 30px;
 		transition: inset .3s ease-out;
 	}
 
