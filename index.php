@@ -195,12 +195,16 @@
     </div>
 </main>
 
+
+<div class="container-fluid col-12" style="height: 12rem;"></div>
+
+
 <!-- footer -->
 <footer class="container-fluid position-relative">
     <div class="row justify-content-center">
-        <div class="block1 col-5 d-flex justify-content-center align-items-center"><img src="images/phone.png" alt="telephone number" style="width:60px;"></div>
+        <div class="block1 col-5 d-flex justify-content-end align-items-center"><img src="images/phone.png" alt="telephone number" style="width:60px;"></div>
         <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="150" viewBox="0 0 4 422.788">
+            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="100" viewBox="0 0 4 422.788">
                 <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
                       transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="10"/>
             </svg>
@@ -211,9 +215,9 @@
     </div>
 
     <div class="row justify-content-center">
-        <a href="mailto:info@iwcs.eu" class="block1 col-5 d-flex justify-content-center align-items-center"><img src="images/mail.png" alt="mail" style="width:60px;"></a>
+        <a href="mailto:info@iwcs.eu" class="block1 col-5 d-flex justify-content-end align-items-center"><img src="images/mail.png" alt="mail" style="width:60px;"></a>
         <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="150" viewBox="0 0 4 422.788">
+            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="100" viewBox="0 0 4 422.788">
                 <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
                       transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="10"/>
             </svg>
@@ -225,15 +229,15 @@
         </div>
     </div>
     <div class="row justify-content-center">
-        <a href="mailto:info@iwcs.eu" class="block1 col-5 d-flex justify-content-center align-items-center"><img src="images/adress.png" alt="mail" style="width:60px;"></a>
+        <a href="mailto:info@iwcs.eu" class="block1 col-5 d-flex justify-content-end align-items-center"><img src="images/adress.png" alt="mail" style="width:60px;"></a>
 
         <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="150" viewBox="0 0 4 422.788">
+            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="100" viewBox="0 0 4 422.788">
                 <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
                       transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="10"/>
             </svg>
         </div>
-        <div class="block1 col-5 d-flex justify-content-center align-items-center">
+        <div class="block1 col-5 d-flex justify-content-flex-start align-items-center">
             <h4>Porthusvej 7A, 3490 Kvistgård, Denmark</h4>
         </div>
     </div>
