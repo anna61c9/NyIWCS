@@ -20,7 +20,8 @@
 <img class="bg position-absolute d-block d-mb-none d-lg-none" src="images/waterCircleSmall.webp" alt="background">
 <?php include 'nav.php'; ?>
 
-<br><br><br><br><br>
+<div class="container-fluid col-12" style="height: 20rem;"></div>
+
 <div class="underrubrik container-fluid justify-content-center" style="opacity: 0;">
     <div class="col">
 
@@ -34,7 +35,7 @@
 
     </div>
 </div>
-<br><br><br><br><br><br><br><br><br><br>
+<div class="container-fluid col-12" style="height: 12rem;"></div>
 
 
 <!-- Accordion -->
@@ -54,7 +55,7 @@
         </div>
     </div>
 
-    <br><br><br><br><br><br><br><br><br>
+    <div class="container-fluid col-12" style="height: 8rem;"></div>
 
     <div class="row">
         <div class="col-12 col-md-8 col-lg-12 mx-auto">
@@ -134,7 +135,7 @@
         </div>
     </div>
 </div>
-<br><br><br><br><br><br><br><br>
+<div class="container-fluid col-12" style="height: 8rem;"></div>
 
 
 <!-- Video -->
@@ -143,7 +144,8 @@
     <source src="movie.ogg" type="video/ogg">
     Your browser does not support the video tag.
 </video>
-<br><br><br>
+
+<div class="container-fluid col-12" style="height: 4rem;"></div>
 
 <!-- Cards -->
 <main>

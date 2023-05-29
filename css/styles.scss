@@ -308,7 +308,7 @@ main {
 	}
 
 	p, a {
-		position: absolute;
+		position: relative;
 		opacity: 0;
 		max-width: 80%;
 		transition: opacity .3s ease-out;
@@ -320,14 +320,15 @@ main {
 	}
 
 	&:hover h2 {
-		inset: auto auto 100px 30px;
+		inset: auto auto 140px 30px;
 		transition: inset .3s ease-out;
 	}
 
 	&:hover p, &:hover a {
-		opacity: 0;
-		inset: auto auto 0px 30px;
+		opacity: 1;
+		inset: auto auto -280px 15px;
 		transition: opacity .5s .1s ease-in;
+		position: relative;
 	}
 
 	&:hover img {

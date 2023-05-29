@@ -25,7 +25,7 @@
 </head>
 <body>
 
-<img id="bg" src="images/demoBackdrop.png" alt="background">
+<img class="bg" src="images/demoBackdrop.png" alt="background">
 
 <?php include 'nav.php'; ?>
 
