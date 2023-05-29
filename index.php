@@ -16,8 +16,8 @@
 </head>
 <body>
 <!-- Cover -->
-<img id="bg" src="images/waterCircleNy.webp" alt="">
-
+<img class="bg position-absolute d-none d-mb-block d-lg-block" src="images/waterCircleNy.webp" alt="background">
+<img class="bg position-absolute d-block d-mb-none d-lg-none" src="images/waterCircleSmall.webp" alt="background">
 <?php include 'nav.php'; ?>
 
 <br><br><br><br><br>
