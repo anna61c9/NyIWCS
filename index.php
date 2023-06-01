@@ -35,7 +35,7 @@
 
     </div>
 </div>
-<div class="container-fluid col-12" style="height: 12rem;"></div>
+<div class="container-fluid col-12" style="height: 8rem;"></div>
 
 
 <!-- Accordion -->
