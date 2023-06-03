@@ -206,7 +206,7 @@
     <div class="row justify-content-center">
         <div class="block1 col-5 d-flex justify-content-end align-items-center"><img src="images/phone.png" alt="telephone number" style="width:40px;"></div>
         <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="100" viewBox="0 0 4 422.788">
+            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="50" viewBox="0 0 4 422.788">
                 <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
                       transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="5"/>
             </svg>
@@ -219,7 +219,7 @@
     <div class="row justify-content-center">
         <a href="mailto:info@iwcs.eu" class="block1 col-5 d-flex justify-content-end align-items-center"><img src="images/mail.png" alt="mail" style="width:40px;"></a>
         <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="100" viewBox="0 0 4 422.788">
+            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="50" viewBox="0 0 4 422.788">
                 <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
                       transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="5"/>
             </svg>
@@ -234,7 +234,7 @@
         <a href="mailto:info@iwcs.eu" class="block1 col-5 d-flex justify-content-end align-items-center"><img src="images/adress.png" alt="mail" style="width:40px;"></a>
 
         <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="100" viewBox="0 0 4 422.788">
+            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="50" viewBox="0 0 4 422.788">
                 <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
                       transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="5"/>
             </svg>
