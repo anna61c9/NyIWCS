@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="utf-8">
@@ -10,19 +10,38 @@
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <meta name="description" content="A new collaboration between IWCS and Raymarine means that IWCS’ intercom can now be run on Raymarine’s screens. This makes it possible for Raymarine to utilize the effective communication system to all their users. ">
+
+    <meta itemprop="name" content="iwcs">
+
+    <meta name="keywords" content="søgeord, søgeord, søgeord">
+
+    <meta property="og:title" content="intercom"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.totallychaos.dk/iwcs"/>
+    <meta property="og:image" content="https://www.totallychaos.dk/iwcs/watercircle.webp"/>
+    <meta property="og:description" content="A new collaboration between IWCS and Raymarine means that IWCS’ intercom can now be run on Raymarine’s screens. This makes it possible for Raymarine to utilize the effective communication system to all their users. "/>
+    <meta property="og:locale" content="en_dk"/>
+
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
 <!-- Cover -->
 <img class="bg position-absolute d-none d-mb-none d-lg-block" src="images/waterCircleNy.webp" alt="background desktop">
-<img class="bg position-absolute d-block d-mb-block d-lg-none" src="images/waterCircleSmall.webp" alt="background mobil">
+<img class="bg position-absolute d-block d-sm-block d-md-block d-lg-none" src="images/mobilebg.webp" alt="background mobile">
+
+
 <?php include 'nav.php'; ?>
 
-<div class="container-fluid col-12" style="height: 20rem;"></div>
+<header class="hero d-lg-none d-mb-block d-sm-block d-block position-relative"><img src="images/waterCirclemobile.webp" alt="heroimage"></header>
 
-<div class="underrubrik container-fluid justify-content-center" style="opacity: 0;">
+
+<div class="container-fluid col-12 d-none d-sm-none d-mb-none d-lg-block" style="height: 20rem;"></div>
+
+<div class="underrubrik container-fluid justify-content-center d-none" style="opacity: 0;">
     <div class="col">
 
         <div class="row mx-auto">
@@ -35,6 +54,8 @@
 
     </div>
 </div>
+
+
 <div class="container-fluid col-12" style="height: 2rem;"></div>
 
 <!-- CTA -->
@@ -51,17 +72,19 @@
     </div>
 </div>
 
-<!-- Accordion -->
-<div class="container-fluid justify-content-center">
 
+<!-- Accordion -->
+<div class="container-fluid justify-content-center" style="position: relative;">
+    <div class="background-image"></div>
 
     <div class="container-fluid col-12" style="height: 10rem;"></div>
+
+    <img src="images/mobilbgintercom.webp" class="d-block d-sm-block d-mb-block d-lg-none bg-mobile position-absolute top-0 start-0" alt="intercom">
 
     <div class="row">
         <div class="col-12 col-md-8 col-lg-8 mx-auto">
 
-            <div class="accordion accordion-flush id=" accordionFlushExample
-            ">
+            <div class="accordion accordion-flush id=" accordionFlushExample">
 
             <div class="row underrubrik m-2"><h1>IWCS x Raymarine</h1></div>
 
@@ -253,7 +276,7 @@
 <br><br><br><br><br><br>
 <div class="container justify-content-center links">
     <div class="row text-center">
-        <a href="handelsbetingelser.php" style="color: #0c63e4;">Handelsbetingelser</a>
+        <a href="handelsbetingelser.php" style="color: #0c63e4;">Terms and Conditions of Sales</a>
     </div>
     <br>
     <div class="row text-center">
