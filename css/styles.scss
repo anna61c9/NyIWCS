@@ -39,7 +39,7 @@ p {
 	padding: 0;
 	font-family: "old baskerville";
 	font-size: xx-large;
-	font-kerning: 2em;
+	font-kerning: auto;
 }
 
 a {
@@ -236,7 +236,7 @@ button {
 	border-bottom: whitesmoke;
 	outline-color: #e9ecef;
 	font-size: 3em;
-	font-kerning: 2em;
+	font-kerning: auto;
 }
 
 .accordion-header {
@@ -338,36 +338,6 @@ main {
 		transition: opacity .3s ease-in;
 		opacity: 0.7;
 	}
-
-}
-.sidenav {
-	height: 100%;
-	width: 200px;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: rgba(0, 0, 0, 0.75);
-	overflow-x: hidden;
-	padding-top: 20px;
-}
-
-.sidenav a {
-	padding: 6px 8px 6px 16px;
-	text-decoration: none;
-	font-size: 18px;
-	color: #818181;
-	display: block;
-}
-
-.sidenav a:hover {
-	color: whitesmoke;
-}
-
-.main{
-	margin-left: 300px;
-	font-size: 18px;
-	padding: 0 10px;
 
 }
 

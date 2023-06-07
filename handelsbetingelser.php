@@ -17,8 +17,8 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <link href="css/.scss" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.scss" rel="stylesheet" type="text/css">
+    <link href="css/terms.scss" rel="stylesheet" type="text/css">
+    
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -65,13 +65,12 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
 
 <?php foreach ($handelsbetingelser as $Allterms) { ?>
 
-    <main class="main container-fluid position-relative" style="background-color: #6f42c1"
+    <main class="container-fluid" style="background-color: #13444e"
           id="<?php echo strtolower(str_replace(' ', '-', $Allterms->termsName)); ?>">
         <div class="row">
-            <div class="container">
+            <div class="container col-7 justify-content-center">
                 <h2><?php echo $Allterms->termsName; ?></h2>
                 <p class="text" style="font-size: medium; color: whitesmoke;"><?php echo $Allterms->termsDescription; ?></p>
-                <br>
             </div>
         </div>
     </main>

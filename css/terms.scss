@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Bahnschrift', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  /* align-items: center; */
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("images/demoBackdrop.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bahnschrift', sans-serif;
+  color: whitesmoke;
+  font-stretch: condensed;
+}
+
+ul, ol {
+  margin: 2px 10px 2px 10px;
+  padding: 0;
+  list-style-position: inside;
+}
+
+li {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "old baskerville";
+  font-size: xx-large;
+  font-kerning: normal;
+}
+
+a {
+  font-family: "old baskerville";
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.sidenav {
+  height: 90%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: whitesmoke;
+}

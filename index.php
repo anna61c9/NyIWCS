@@ -273,7 +273,7 @@
 
 
 <!-- Links -->
-<br><br><br><br><br><br>
+    <div class="container-fluid col-12" style="height: 8rem;"></div>
 <div class="container justify-content-center links">
     <div class="row text-center">
         <a href="handelsbetingelser.php" style="color: #0c63e4;">Terms and Conditions of Sales</a>
@@ -287,7 +287,6 @@
         <a href="url" style="color: #0c63e4;">Datablad</a>
     </div>
 </div>
-
 
 <?php include 'bottom.php'; ?>
 
