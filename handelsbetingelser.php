@@ -17,8 +17,8 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <link href="css/styles.scss" rel="stylesheet" type="text/css">
-
+    <link href="css/.scss" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.scss" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -26,73 +26,83 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
 
 <!-- Cover -->
 
-
 <?php include 'nav.php'; ?>
-
 
 <div class="sidenav container d-none d-sm-none d-md-none d-lg-block">
     <div class="row">
-        <a href="#afsnit1">EXCLUSIVITY OF TERMS</a>
-        <a href="#afsnit2">SHIPMENT AND TRANSPORTATION</a>
-        <a href="#afsnit3">ACCEPTANCE OF SHIPPED PRODUCT</a>
-        <a href="#afsnit4">REGIONAL REGULATORY REQUIREMENTS</a>
-        <a href="#afsnit5">PRODUCT DOCUMENTATION</a>
-        <a href="#afsnit6">TECHNICAL COMPATIBILITY</a>
-        <a href="#afsnit7">RE-EXPORT RESTRICTIONS</a>
-        <a href="#afsnit8">QUOTATIONS</a>
-        <a href="#afsnit9">FORCE MAJEURE</a>
-        <a href="#afsnit10">FRAME ORDERS</a>
-        <a href="#afsnit11">PAYMENT TERMS & INVOICING</a>
-        <a href="#afsnit12">PAYMENT DEFAULT</a>
-        <a href="#afsnit13">TAXES</a>
-        <a href="#afsnit14">CONTRACT DEVELOPMENT AND CUSTOMER SPECIFIC PROJECTS</a>
-        <a href="#afsnit15">INTELLECTUAL PROPERTY RIGHTS</a>
-        <a href="#afsnit16">WARRANTY</a>
-        <a href="#afsnit17">REPAIRS</a>
-        <a href="#afsnit18">DISPUTES</a>
-        <a href="#afsnit19">CANCELLATION, SUSPENSION, OR MODIFICATION BY CUSTOMER</a>
-        <a href="#afsnit20">EU'S WASTE ELECTRONIC AND ELECTRONIC EQUIPMENT (WEEE)</a>
+        <a href="#exclusivity-of-terms">EXCLUSIVITY OF TERMS</a>
+        <a href="#shipment-and-transportation">SHIPMENT AND TRANSPORTATION</a>
+        <a href="#acceptance-of-shipped-product">ACCEPTANCE OF SHIPPED PRODUCT</a>
+        <a href="#regional-regulatory-requirements">REGIONAL REGULATORY REQUIREMENTS</a>
+        <a href="#product-documentation">PRODUCT DOCUMENTATION</a>
+        <a href="#technical-compatibility">TECHNICAL COMPATIBILITY</a>
+        <a href="#re-export-restrictions">RE-EXPORT RESTRICTIONS</a>
+        <a href="#quotations">QUOTATIONS</a>
+        <a href="#force-majeure">FORCE MAJEURE</a>
+        <a href="#frame-orders">FRAME ORDERS</a>
+        <a href="#payment-terms-&-invoicing">PAYMENT TERMS & INVOICING</a>
+        <a href="#payment-default">PAYMENT DEFAULT</a>
+        <a href="#taxes">TAXES</a>
+        <a href="#contract-development-and-customer-specific-projects">CONTRACT DEVELOPMENT AND CUSTOMER SPECIFIC PROJECTS</a>
+        <a href="#intellectual-property-rights">INTELLECTUAL PROPERTY RIGHTS</a>
+        <a href="#repairs">REPAIRS</a>
+        <a href="#disputes">DISPUTES</a>
+        <a href="#cancellation,-suspension,-or-modification-by-customer">CANCELLATION, SUSPENSION, OR MODIFICATION BY CUSTOMER</a>
+        <a href="#eu's-waste-electronic-and-electronic-equipment-(weee)-regulation-and-related-electronic-recycling-rules">EU'S WASTE ELECTRONIC AND ELECTRONIC EQUIPMENT (WEEE)</a>
+        <a href="#warranty">WARRANTY</a>
     </div>
 </div>
 
-
-
 <div class="title">
     <div class="container position-relative">
-        <div class="row" style="text-align: center"><h1>Terms and Conditions of Sales</h1>
+        <div class="row" style="text-align: center">
+            <h1>Terms and Conditions of Sales</h1>
         </div>
     </div>
 </div>
 
 <div class="container-fluid col-12" style="height: 2rem;"></div>
 
-<?php
-foreach ($handelsbetingelser as $Allterms) {
-    ?>
+<?php foreach ($handelsbetingelser as $Allterms) { ?>
 
-    <main class=" main container-fluid position-relative" style="background:#040444;">
+    <main class="main container-fluid position-relative" style="background-color: #6f42c1"
+          id="<?php echo strtolower(str_replace(' ', '-', $Allterms->termsName)); ?>">
         <div class="row">
             <div class="container">
-                <h2>
-                    <?php
-                    echo $Allterms->termsName;
-                    ?>
-                </h2>
-                <p class="text" style="font-size: medium; color: whitesmoke;">
-                    <?php
-                    echo $Allterms->termsDescription;
-                    ?>
-                </p>
+                <h2><?php echo $Allterms->termsName; ?></h2>
+                <p class="text" style="font-size: medium; color: whitesmoke;"><?php echo $Allterms->termsDescription; ?></p>
                 <br>
             </div>
         </div>
     </main>
-
-    <?php
-}
-?>
+<?php } ?>
 
 <?php include 'bottom.php'; ?>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const links = document.querySelectorAll('.sidenav a');
+
+        links.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    const offsetTop = targetElement.offsetTop;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    });
+</script>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

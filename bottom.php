@@ -1,3 +1,5 @@
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
 <?php
 echo '
 
