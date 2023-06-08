@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="utf-8">
@@ -10,19 +10,45 @@
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <meta name="description"
+          content="A new collaboration between IWCS and Raymarine means that IWCS’ intercom can now be run on Raymarine’s screens. This makes it possible for Raymarine to utilize the effective communication system to all their users. ">
+
+    <meta itemprop="name" content="iwcs">
+
+    <meta name="keywords" content="søgeord, søgeord, søgeord">
+
+    <meta property="og:title" content="intercom"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.totallychaos.dk/iwcs"/>
+    <meta property="og:image" content="https://www.totallychaos.dk/iwcs/watercircle.webp"/>
+    <meta property="og:description"
+          content="A new collaboration between IWCS and Raymarine means that IWCS’ intercom can now be run on Raymarine’s screens. This makes it possible for Raymarine to utilize the effective communication system to all their users. "/>
+    <meta property="og:locale" content="en_dk"/>
+
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
 <!-- Cover -->
 <img class="bg position-absolute d-none d-mb-none d-lg-block" src="images/waterCircleNy.webp" alt="background desktop">
-<img class="bg position-absolute d-block d-mb-block d-lg-none" src="images/waterCircleSmall.webp" alt="background mobil">
-<?php include 'nav.php'; ?>
+<img class="bg position-absolute d-block d-sm-block d-md-block d-lg-none" src="images/mobilebg.webp"
+     alt="background mobile">
 
-<div class="container-fluid col-12" style="height: 20rem;"></div>
 
-<div class="underrubrik container-fluid justify-content-center" style="opacity: 0;">
+<header class="d-none  d-lg-block position-relative">
+    <?php include 'nav.php'; ?>
+</header>
+
+<header class="hero d-lg-none d-block position-relative"><img src="images/waterCirclemobile.webp" alt="heroimage">
+    <?php include 'nav.php'; ?>
+</header>
+
+
+<div class="container-fluid col-12 d-none d-sm-none d-mb-none d-lg-block" style="height: 20rem;"></div>
+
+<div class="underrubrik container-fluid justify-content-center d-none" style="opacity: 0;">
     <div class="col">
 
         <div class="row mx-auto">
@@ -35,12 +61,14 @@
 
     </div>
 </div>
+
+
 <div class="container-fluid col-12" style="height: 2rem;"></div>
 
 <!-- CTA -->
 <div id="container-fluid d-flex">
     <div class="row CTA">
-        <div class="col col-md-8 col-lg-12 mx-5">
+        <div class="col col-md-8 col-lg-12">
             <button class="learn-more">
     <span class="circle" aria-hidden="true">
       <span class="icon arrow"></span>
@@ -51,11 +79,15 @@
     </div>
 </div>
 
+<div class="container-fluid col-12" style="height: 6rem;"></div>
 <!-- Accordion -->
-<div class="container-fluid justify-content-center">
-
+<div class="container-fluid justify-content-center" style="position: relative;">
+    <div class="background-image"></div>
 
     <div class="container-fluid col-12" style="height: 10rem;"></div>
+
+    <img src="images/mobilbgintercom.webp" class="d-block d-lg-none bg-mobile position-absolute top-0 start-0"
+         alt="intercom">
 
     <div class="row">
         <div class="col-12 col-md-8 col-lg-8 mx-auto">
@@ -75,7 +107,8 @@
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne"
                      data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">To make sure as many as possible are able to use this revolutionary technology,
+                    <div class="accordion-body">To make sure as many as possible are able to use this revolutionary
+                        technology,
                         Raymarine and IWCS have joined forces to open up exciting opportunities in the future.
                         Together, they aim to facilitate widespread adoption,
                         ensuring its transformative potential reaches a vast and diverse audience.
@@ -129,11 +162,12 @@
                     <div class="col-12 m-2 col-md-8 col-lg-8">
                         <a href="https://www.linkedin.com/company/iridiumwaterproof/?originalSubdomain=dk"><img
                                     src="images/inHvid.png" class="img m-2" alt="linkedin"></a>
-                        <a href="https://www.youtube.com/@IWCSDenmark"><img src="images/youtube.png" class="img m-2" alt="Youtube"></a>
+                        <a href="https://www.youtube.com/@IWCSDenmark"><img src="images/youtube.png" class="img m-2"
+                                                                            alt="Youtube"></a>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid col-12" style="height: 14rem;"></div>
+            <div class="container-fluid col-12" style="height: 4rem;"></div>
 
         </div>
     </div>
@@ -141,13 +175,14 @@
 
 
 <!-- Video -->
-<video width="100%" height="100%" controls>
-    <source src="movie.mp4" type="video/mp4">
-    <source src="movie.ogg" type="video/ogg">
-    Your browser does not support the video tag.
-</video>
+<div class="video container-fluid p-0">
+    <video width="100%" height="100%" controls muted autoplay>
+        <source src="video/test%208.mp4" type="video/mp4">
+        <source src="video/test%208.mp4" type="video/ogg">
+    </video>
+</div>
 
-<div class="container-fluid col-12" style="height: 4rem;"></div>
+<div class="container-fluid col-12" style="height: 8rem;"></div>
 
 <!-- Cards -->
 <main>
@@ -200,72 +235,79 @@
 </main>
 
 
-<div class="container-fluid col-12" style="height: 8rem;"></div>
+<div class="container-fluid col-12" style="height: 4rem;"></div>
 
 
 <!-- footer -->
-<footer class="container-fluid position-relative">
-    <div class="row justify-content-center">
-        <div class="block1 col-5 d-flex justify-content-end align-items-center"><img src="images/phone.png" alt="telephone number" style="width:40px;"></div>
-        <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="50" viewBox="0 0 4 422.788">
-                <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
-                      transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="5"/>
-            </svg>
-        </div>
-        <div class="block1 col-5 d-flex justify-content-flex-start align-items-center">
-            <h6>+45 43 43 26 26</h6>
-        </div>
-    </div>
+<footer class="container-fluid justify-content-center position-relative">
+    <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-5 col-lg-5">
+            <div class="row">
+                <div class="block1 col-5 d-flex justify-content-end align-items-center"><img src="images/phone.png"
+                                                                                             alt="telephone number"
+                                                                                             style="width:60px;"></div>
+                <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="70" viewBox="0 0 4 422.788">
+                        <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
+                              transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="5"/>
+                    </svg>
+                </div>
+                <div class="block1 col-5 d-flex justify-content-flex-start align-items-center">
+                    <h5>+45 43 43 26 26</h5>
+                </div>
+            </div>
 
-    <div class="row justify-content-center">
-        <a href="mailto:info@iwcs.eu" class="block1 col-5 d-flex justify-content-end align-items-center"><img src="images/mail.png" alt="mail" style="width:40px;"></a>
-        <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="50" viewBox="0 0 4 422.788">
-                <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
-                      transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="5"/>
-            </svg>
+            <div class="row justify-content-center">
+                <a href="mailto:info@iwcs.eu" class="block1 col-5 d-flex justify-content-end align-items-center"><img
+                            src="images/mail.png" alt="mail" style="width:60px;"></a>
+                <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="70" viewBox="0 0 4 422.788">
+                        <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
+                              transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="5"/>
+                    </svg>
+                </div>
+
+                <div class="block1 col-5 d-flex justify-content-flex-start align-items-center">
+                    <a href="mailto:info@iwcs.eu">
+                        <h5>info@iwcs.eu</h5></a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <a href="mailto:info@iwcs.eu" class="block1 col-5 d-flex justify-content-end align-items-center"><img
+                            src="images/adress.png" alt="mail" style="width:60px;"></a>
+
+                <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="80" viewBox="0 0 4 422.788">
+                        <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
+                              transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="5"/>
+                    </svg>
+                </div>
+                <div class="block1 col-5 d-flex justify-content-flex-start align-items-center">
+                    <h5>Porthusvej 7A, <br>
+                        3490 Kvistgård, Denmark</h5>
+                </div>
+            </div>
         </div>
 
-        <div class="block1 col-5 d-flex justify-content-flex-start align-items-center">
-            <a href="mailto:info@iwcs.eu">
-            <h6>info@iwcs.eu</h6></a>
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <a href="mailto:info@iwcs.eu" class="block1 col-5 d-flex justify-content-end align-items-center"><img src="images/adress.png" alt="mail" style="width:40px;"></a>
 
-        <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="50" viewBox="0 0 4 422.788">
-                <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
-                      transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="5"/>
-            </svg>
-        </div>
-        <div class="block1 col-5 d-flex justify-content-flex-start align-items-center">
-            <h6>Porthusvej 7A, <br>
-                3490 Kvistgård, Denmark</h6>
+        <!-- Links -->
+        <div class="col-12 col-md-5 col-lg-5 mt-4">
+            <div class="row justify-content-center links text-center">
+                <a href="handelsbetingelser.php" style="color: #0c63e4;">Terms and Conditions of Sales</a>
+            </div>
+            <br>
+            <div class="row text-center">
+                <a href="csr.php" style="color: #0c63e4;">CSR</a>
+            </div>
+            <br>
+            <div class="row text-center">
+                <a href="url" style="color: #0c63e4;">Datablad</a>
+            </div>
         </div>
     </div>
 </footer>
 
-
-<!-- Links -->
-<br><br><br><br><br><br>
-<div class="container justify-content-center links">
-    <div class="row text-center">
-        <a href="handelsbetingelser.php" style="color: #0c63e4;">Handelsbetingelser</a>
-    </div>
-    <br>
-    <div class="row text-center">
-        <a href="csr.php" style="color: #0c63e4;">CSR</a>
-    </div>
-    <br>
-    <div class="row text-center">
-        <a href="url" style="color: #0c63e4;">Datablad</a>
-    </div>
-</div>
-
-
+<div class="container-fluid col-12" style="height: 8rem;"></div>
 <?php include 'bottom.php'; ?>
 
 

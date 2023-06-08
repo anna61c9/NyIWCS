@@ -39,7 +39,7 @@ p {
 	padding: 0;
 	font-family: "old baskerville";
 	font-size: xx-large;
-	font-kerning: 2em;
+	font-kerning: auto;
 }
 
 a {
@@ -92,8 +92,12 @@ $black: #282936;
 }
 
 .CTA {
-	justify-content: flex-end;
+	justify-content: center;
+	align-items: end;
 	display: grid;
+	padding: 0;
+	--bs-gutter-x: 0rem;
+	height: 0%;
 }
 
 button {
@@ -236,7 +240,7 @@ button {
 	border-bottom: whitesmoke;
 	outline-color: #e9ecef;
 	font-size: 3em;
-	font-kerning: 2em;
+	font-kerning: auto;
 }
 
 .accordion-header {
@@ -284,7 +288,7 @@ main {
 	cursor: pointer;
 	position: relative;
 	color: $color-primary-white;
-	box-shadow: 0 20px 40px 10px rgba(0, 0, 0, 1);
+	box-shadow: 0 15px 15px 2px rgba(0, 0, 0, 0.6);
 	--bs-card-border-width: 0px;
 
 	img {
@@ -339,4 +343,45 @@ main {
 		opacity: 0.7;
 	}
 
+}
+
+.background-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/mobilbgintercom.webp');
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+}
+
+.video{
+	--bs-gutter-x: 0rem !important;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+#myBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: #2c3034; /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border-radius: 30px; /* Rounded corners */
+	font-size: 18px; /* Increase font size */
+	font-family: "Bahnschrift", sans-serif;
+}
+
+#myBtn:hover {
+	background-color: #1a1e21; /* Add a dark-grey background on hover */
 }
