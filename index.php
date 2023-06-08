@@ -11,11 +11,14 @@
     <meta name="copyright" content="Information om copyright">
 
     <meta name="description"
-          content="A new collaboration between IWCS and Raymarine means that IWCS’ intercom can now be run on Raymarine’s screens. This makes it possible for Raymarine to utilize the effective communication system to all their users. ">
+          content="A new collaboration between IWCS and Raymarine means that IWCS’ intercom
+          can now be run on Raymarine’s screens.
+          This makes it possible for Raymarine to utilize the effective communication system to all their users. ">
 
     <meta itemprop="name" content="iwcs">
 
-    <meta name="keywords" content="søgeord, søgeord, søgeord">
+    <meta name="keywords" content="intercom, intercom system, intercom company, intercom solutions,
+    intercom communications systems, headset noise canceling, 2 way communication, intercom system for home, noise canceling head phones,">
 
     <meta property="og:title" content="intercom"/>
     <meta property="og:type" content="website"/>
@@ -33,11 +36,10 @@
 
 <!-- Cover -->
 <img class="bg position-absolute d-none d-mb-none d-lg-block" src="images/waterCircleNy.webp" alt="background desktop">
-<img class="bg position-absolute d-block d-sm-block d-md-block d-lg-none" src="images/mobilebg.webp"
-     alt="background mobile">
+<img class="bg position-absolute d-block d-sm-block d-md-block d-lg-none" src="images/mobilebg.webp" alt="background mobile">
 
 
-<header class="d-none  d-lg-block position-relative">
+<header class="d-none d-lg-block position-relative">
     <?php include 'nav.php'; ?>
 </header>
 
@@ -66,7 +68,7 @@
 <div class="container-fluid col-12" style="height: 2rem;"></div>
 
 <!-- CTA -->
-<div id="container-fluid d-flex">
+<div id="container d-flex">
     <div class="row CTA">
         <div class="col col-md-8 col-lg-12">
             <button class="learn-more">
@@ -80,16 +82,15 @@
 </div>
 
 <div class="container-fluid col-12" style="height: 6rem;"></div>
+
 <!-- Accordion -->
-<div class="container-fluid justify-content-center" style="position: relative;">
-    <div class="background-image"></div>
+<div class="container-fluid justify-content-center">
+
+
 
     <div class="container-fluid col-12" style="height: 10rem;"></div>
 
-    <img src="images/mobilbgintercom.webp" class="d-block d-lg-none bg-mobile position-absolute top-0 start-0"
-         alt="intercom">
-
-    <div class="row">
+     <div class="row">
         <div class="col-12 col-md-8 col-lg-8 mx-auto">
 
             <div class="accordion accordion-flush id=" accordionFlushExample
@@ -168,7 +169,6 @@
                 </div>
             </div>
             <div class="container-fluid col-12" style="height: 4rem;"></div>
-
         </div>
     </div>
 </div>
@@ -181,8 +181,6 @@
         <source src="video/test%208.mp4" type="video/ogg">
     </video>
 </div>
-
-<div class="container-fluid col-12" style="height: 8rem;"></div>
 
 <!-- Cards -->
 <main>
@@ -291,17 +289,13 @@
 
 
         <!-- Links -->
-        <div class="col-12 col-md-5 col-lg-5 mt-4">
+        <div class="col-12 col-md-5 col-lg-5 mt-5">
             <div class="row justify-content-center links text-center">
                 <a href="handelsbetingelser.php" style="color: #0c63e4;">Terms and Conditions of Sales</a>
             </div>
             <br>
-            <div class="row text-center">
+            <div class="row links text-center">
                 <a href="csr.php" style="color: #0c63e4;">CSR</a>
-            </div>
-            <br>
-            <div class="row text-center">
-                <a href="url" style="color: #0c63e4;">Datablad</a>
             </div>
         </div>
     </div>
