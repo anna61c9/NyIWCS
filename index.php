@@ -170,7 +170,7 @@
     Your browser does not support the video tag.
 </video>
 
-<div class="container-fluid col-12" style="height: 4rem;"></div>
+<div class="container-fluid col-12" style="height: 8rem;"></div>
 
 <!-- Cards -->
 <main>
