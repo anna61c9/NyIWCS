@@ -30,24 +30,26 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
 <div class="container-fluid col-12" style="height: 6rem;"></div>
 <div class="seleclist container col-7 mt-2">
     <form action="/action_page.php">
-        <label for="sel1" class="form-label"><div class="title">
+        <label for="sel1" class="form-label">
+            <div class="title">
                 <div class="container position-relative">
                     <div class="row" style="text-align: center">
                         <h1>Terms and Conditions of Sales</h1>
                     </div>
                 </div>
-            </div></label>
-        <select class="form-select" id="sel1" name="sellist1">
-            <option>EXCLUSIVITY OF TERMS</option>
-            <option>SHIPMENT AND TRANSPORTATION</option>
-            <option>ACCEPTANCE OF SHIPPED PRODUCT</option>
-            <option>REGIONAL REGULATORY REQUIREMENTS</option>
-            <option>PRODUCT DOCUMENTATION</option>
-            <option>TECHNICAL COMPATIBILITY</option>
-            <option>RE-EXPORT RESTRICTIONS</option>
-        </select>
+            </div>
+        </label>
+        <div class="dropdown-container">
+            <select class="form-select" id="sel1" name="sellist1">
+                <?php foreach ($handelsbetingelser as $term) { ?>
+                    <option><?php echo $term->termsName; ?></option>
+                <?php } ?>
+            </select>
+        </div>
     </form>
 </div>
+
+
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="position-fixed navbar container sidenav d-none d-sm-none d-md-none d-lg-none">
@@ -145,47 +147,26 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-        const links = document.querySelectorAll('.sidenav a');
+        const dropdown = document.getElementById('sel1');
+        const chapters = document.querySelectorAll('main');
 
-        links.forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
+        dropdown.addEventListener('change', function() {
+            const selectedIndex = dropdown.selectedIndex;
+            const selectedChapter = chapters[selectedIndex];
 
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
-
-                if (targetElement) {
-                    const offsetTop = targetElement.offsetTop;
-                    window.scrollTo({
-                        top: offsetTop,
-                        behavior: 'smooth'
-                    });
-                }
-            });
+            if (selectedChapter) {
+                const offsetTop = selectedChapter.offsetTop;
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            }
         });
     });
+
 </script>
-<script>
-// Get the button:
-let mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-mybutton.style.display = "block";
-} else {
-mybutton.style.display = "none";
-}
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-document.body.scrollTop = 0; // For Safari
-document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-</script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
