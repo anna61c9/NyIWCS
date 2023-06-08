@@ -27,10 +27,16 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
 <!-- Cover -->
 
 <?php include 'nav.php'; ?>
-
-<div class="seleclist container col-5 mt-2">
+<div class="container-fluid col-12" style="height: 6rem;"></div>
+<div class="seleclist container col-7 mt-2">
     <form action="/action_page.php">
-        <label for="sel1" class="form-label">Select placeholder</label>
+        <label for="sel1" class="form-label"><div class="title">
+                <div class="container position-relative">
+                    <div class="row" style="text-align: center">
+                        <h1>Terms and Conditions of Sales</h1>
+                    </div>
+                </div>
+            </div></label>
         <select class="form-select" id="sel1" name="sellist1">
             <option>EXCLUSIVITY OF TERMS</option>
             <option>SHIPMENT AND TRANSPORTATION</option>
@@ -43,7 +49,7 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
     </form>
 </div>
 
-
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <nav class="position-fixed navbar container sidenav d-none d-sm-none d-md-none d-lg-none">
 
         <div class="container">
@@ -116,13 +122,7 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
 </nav>
 
 
-<div class="title">
-    <div class="container position-relative">
-        <div class="row" style="text-align: center">
-            <h1>Terms and Conditions of Sales</h1>
-        </div>
-    </div>
-</div>
+
 
 <div class="container-fluid col-12" style="height: 2rem;"></div>
 
@@ -165,7 +165,27 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
         });
     });
 </script>
+<script>
+// Get the button:
+let mybutton = document.getElementById("myBtn");
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
