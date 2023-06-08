@@ -39,12 +39,14 @@
 </div>
 
 
-
-<div id="carouselExampleCaptions" class="carousel slide  d-block d-mb-none d-lg-none m-3" data-bs-ride="carousel">
+<div id="carouselExampleCaptions" class="carousel slide d-block d-mb-none d-lg-none m-3" data-bs-ride="carousel">
     <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -79,10 +81,11 @@
     </button>
 </div>
 
+<br><br><br>
 
-
-
-
+<div class="position-relative text-center d-none d-mb-block d-lg-block">
+    <iframe width="900" height="506,25" src="https://totallychaos.dk/Iwcs%20intercom/" title="DEMO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <div class="container text">
     <div class="row" style="height: 2rem;">
@@ -94,31 +97,14 @@
         <div class="col">
         </div>
 
-        <div class="col text-end" style="font-family: 'Bahnschrift', sans-serif; font-size: 4rem; font-weight: bolder; color: #c5e8ef;">
+        <div class="col text-end"
+             style="font-family: 'Bahnschrift', sans-serif; font-size: 4rem; font-weight: bolder; color: #c5e8ef;">
             Make sound bright
         </div>
 
         <div class="col" style="color: #c5e8ef;">
-            <br><p>IWCS are known for their
-            understanding that effective
-            communication is paramount
-                in high-stress scenarios.</p>
-        </div>
-    </div>
-</div>
-<br>
-
-
-
-<div class="container text position-relative d-block d-mb-block d-lg-none">
-    <div class="row">
-
-        <div class="col-7 text-end" style="font-family: 'Bahnschrift', sans-serif; font-size: 2rem; font-weight: bolder; color: #c5e8ef;">
-            Make sound bright
-        </div>
-
-        <div class="col-4" style="color: #c5e8ef; font-size: 8px!important;">
-            <br><p>IWCS are known for their
+            <br>
+            <p>IWCS are known for their
                 understanding that effective
                 communication is paramount
                 in high-stress scenarios.</p>
@@ -126,6 +112,29 @@
     </div>
 </div>
 <br>
+
+
+<div class="container text position-relative d-block d-mb-block d-lg-none">
+    <div class="row">
+
+        <div class="col-7 text-end"
+             style="font-family: 'Bahnschrift', sans-serif; font-size: 2rem; font-weight: bolder; color: #c5e8ef;">
+            Make sound bright
+        </div>
+
+        <div class="col-4" style="color: #c5e8ef; font-size: 8px!important;">
+            <br>
+            <p>IWCS are known for their
+                understanding that effective
+                communication is paramount
+                in high-stress scenarios.</p>
+        </div>
+x
+    </div>
+</div>
+<br>
+
+
 
 
 <?php include 'bottom.php'; ?>
