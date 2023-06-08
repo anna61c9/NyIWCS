@@ -28,14 +28,17 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
 
 <?php include 'nav.php'; ?>
 
-<div class="seleclist container col-5 mt-2 d-block d-sm-block d-mb-block d-lg-block">
+<div class="seleclist container col-5 mt-2">
     <form action="/action_page.php">
         <label for="sel1" class="form-label">Select placeholder</label>
         <select class="form-select" id="sel1" name="sellist1">
             <option>EXCLUSIVITY OF TERMS</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
+            <option>SHIPMENT AND TRANSPORTATION</option>
+            <option>ACCEPTANCE OF SHIPPED PRODUCT</option>
+            <option>REGIONAL REGULATORY REQUIREMENTS</option>
+            <option>PRODUCT DOCUMENTATION</option>
+            <option>TECHNICAL COMPATIBILITY</option>
+            <option>RE-EXPORT RESTRICTIONS</option>
         </select>
     </form>
 </div>
@@ -110,7 +113,6 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
                 </li>
             </ul>
         </div>
-
 </nav>
 
 
@@ -163,25 +165,6 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
         });
     });
 </script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const selectElement = document.getElementById('sel1');
-        selectElement.addEventListener('change', function() {
-            const selectedOption = this.value;
-
-            const targetElement = document.getElementById(selectedOption);
-
-            if (targetElement) {
-                targetElement.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
-        });
-    });
-</script>
-
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
