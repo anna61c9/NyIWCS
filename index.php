@@ -68,7 +68,7 @@
 <div class="container-fluid col-12" style="height: 2rem;"></div>
 
 <!-- CTA -->
-<div id="container-fluid d-flex">
+<div id="container d-flex">
     <div class="row CTA">
         <div class="col col-md-8 col-lg-12">
             <button class="learn-more">
@@ -85,7 +85,7 @@
 
 <!-- Accordion -->
 <div class="container-fluid justify-content-center">
-    <div class="intercomimage d-block d-lg-none">
+
 
 
     <div class="container-fluid col-12" style="height: 10rem;"></div>
@@ -170,7 +170,6 @@
             </div>
             <div class="container-fluid col-12" style="height: 4rem;"></div>
         </div>
-        </div>
     </div>
 </div>
 
@@ -182,8 +181,6 @@
         <source src="video/test%208.mp4" type="video/ogg">
     </video>
 </div>
-
-<div class="container-fluid col-12" style="height: 8rem;"></div>
 
 <!-- Cards -->
 <main>
@@ -292,17 +289,13 @@
 
 
         <!-- Links -->
-        <div class="col-12 col-md-5 col-lg-5 mt-4">
+        <div class="col-12 col-md-5 col-lg-5 mt-5">
             <div class="row justify-content-center links text-center">
                 <a href="handelsbetingelser.php" style="color: #0c63e4;">Terms and Conditions of Sales</a>
             </div>
             <br>
-            <div class="row text-center">
+            <div class="row links text-center">
                 <a href="csr.php" style="color: #0c63e4;">CSR</a>
-            </div>
-            <br>
-            <div class="row text-center">
-                <a href="url" style="color: #0c63e4;">Datablad</a>
             </div>
         </div>
     </div>

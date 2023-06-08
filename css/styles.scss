@@ -98,11 +98,12 @@ $black: #282936;
 
 .CTA {
 	justify-content: center;
-	align-items: end;
+	align-items: center;
 	display: grid;
 	padding: 0;
 	--bs-gutter-x: 0rem;
-	height: 0%;
+	height: 0rem;
+	margin-top: 10% !important;
 }
 
 button {
