@@ -61,7 +61,7 @@
 <!-- CTA -->
 <div id="container-fluid d-flex">
     <div class="row CTA">
-        <div class="col col-md-8 col-lg-12 mx-5">
+        <div class="col col-md-8 col-lg-12">
             <button class="learn-more">
     <span class="circle" aria-hidden="true">
       <span class="icon arrow"></span>
@@ -164,11 +164,12 @@
 
 
 <!-- Video -->
+<div class="video container-fluid p-0">
 <video width="100%" height="100%" controls>
     <source src="movie.mp4" type="video/mp4">
     <source src="movie.ogg" type="video/ogg">
-    Your browser does not support the video tag.
 </video>
+</div>
 
 <div class="container-fluid col-12" style="height: 8rem;"></div>
 
