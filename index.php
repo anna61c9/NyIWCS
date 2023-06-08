@@ -79,7 +79,7 @@
     </div>
 </div>
 
-
+<div class="container-fluid col-12" style="height: 6rem;"></div>
 <!-- Accordion -->
 <div class="container-fluid justify-content-center" style="position: relative;">
     <div class="background-image"></div>
@@ -167,7 +167,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid col-12" style="height: 14rem;"></div>
+            <div class="container-fluid col-12" style="height: 4rem;"></div>
 
         </div>
     </div>
@@ -177,8 +177,8 @@
 <!-- Video -->
 <div class="video container-fluid p-0">
     <video width="100%" height="100%" controls muted autoplay>
-        <source src="https://www.youtube.com/watch?v=q0KhXMNQ2KY" type="video/mp4">
-        <source src="https://www.youtube.com/watch?v=q0KhXMNQ2KY" type="video/ogg">
+        <source src="video/test%208.mp4" type="video/mp4">
+        <source src="video/test%208.mp4" type="video/ogg">
     </video>
 </div>
 
