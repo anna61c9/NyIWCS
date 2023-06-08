@@ -46,13 +46,16 @@
 
 <!-- Back -->
 <div class="container-fluid position-relative">
-    <div class="row p-2">
+    <div class="row p-3">
         <div class="col">
-            <a href="index.php"><img src="images/back.png" class="img" style="width: 2em" alt="back"></a>
+            <a href="index.php"><img src="images/back.png" class="img" style="width: 3em" alt="back"></a>
         </div>
     </div>
 </div>
 
+<div class="container">
+    <div class="row" style="height: 2em;"></div>
+</div>
 
 <div id="carouselExampleCaptions" class="carousel slide d-block d-mb-none d-lg-none m-3" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -66,23 +69,20 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="images/UdklipA.PNG" class="d-block w-100" alt="Interface">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block d-lg-none">
                 <h5>Intercom controls</h5>
-                <p>Some representative placeholder content for the first slide.</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="images/UdklipB.PNG" class="d-block w-100" alt="Interface">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block d-lg-none">
                 <h5>Intercom custom</h5>
-                <p>Some representative placeholder content for the second slide.</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="images/UdklipC.PNG" class="d-block w-100" alt="Interface">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block d-lg-none">
                 <h5>Intercom settings</h5>
-                <p>Some representative placeholder content for the third slide.</p>
             </div>
         </div>
     </div>
@@ -96,26 +96,24 @@
     </button>
 </div>
 
-<br><br><br>
 
 <div class="position-relative text-center d-none d-mb-block d-lg-block">
     <iframe width="900" height="506,25" src="https://totallychaos.dk/Iwcs%20intercom/" title="DEMO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div class="container text">
-    <div class="row" style="height: 2rem;">
-    </div>
+<div class="container">
+    <div class="row" style="height: 10%;"></div>
 </div>
 
-<div class="container text position-relative  d-flex">
-    <div class="row">
+<div class="container text position-relative d-flex justify-content-center">
+    <div class="row mx-auto">
 
-        <div class="col-12 col-md-5 col-lg-5 text-lg-end text-md-end"
+        <div class="col-12 col-md-6 col-lg-6 text-lg-end text-md-end"
              style="font-family: 'Bahnschrift', sans-serif; font-size: 3rem; font-weight: bolder; color: #c5e8ef;">
             Make sound bright
         </div>
 
-        <div class="col-12 col-md-5 col-lg-5" style="color: #c5e8ef;">
+        <div class="col-12 col-md-6 col-lg-6" style="color: #c5e8ef;">
             <br>
             <p>IWCS are known for their
                 understanding that effective
