@@ -8,9 +8,9 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   /* align-items: center; */
-  justify-content: center;
+
   min-height: 100vh;
-  background-image: url("images/demoBackdrop.png");
+  background-image: url("../images/demoBackdrop.png");
   background-size: cover;
   background-position: center;
 
@@ -54,25 +54,36 @@ img {
 }
 
 .sidenav {
-  height: 90%;
-  width: 200px;
-  position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.75);
   overflow-x: hidden;
   padding-top: 20px;
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
+  padding: 6px 8px 6px 2px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   color: #818181;
   display: block;
 }
 
 .sidenav a:hover {
   color: whitesmoke;
+}
+
+.bg-image {
+  background-image: url("../images/demoBackdrop.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.seleclist{
+  display: flex;
+  justify-content: start;
+
 }
