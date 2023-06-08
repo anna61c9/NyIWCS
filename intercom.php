@@ -107,49 +107,25 @@
     </div>
 </div>
 
-<div class="container text position-relative d-none d-mb-none d-lg-block">
+<div class="container text position-relative  d-flex">
     <div class="row">
-        <div class="col">
-        </div>
 
-        <div class="col text-end"
-             style="font-family: 'Bahnschrift', sans-serif; font-size: 4rem; font-weight: bolder; color: #c5e8ef;">
+        <div class="col-12 col-md-5 col-lg-5 text-lg-end text-md-end"
+             style="font-family: 'Bahnschrift', sans-serif; font-size: 3rem; font-weight: bolder; color: #c5e8ef;">
             Make sound bright
         </div>
 
-        <div class="col" style="color: #c5e8ef;">
+        <div class="col-12 col-md-5 col-lg-5" style="color: #c5e8ef;">
             <br>
             <p>IWCS are known for their
                 understanding that effective
                 communication is paramount
                 in high-stress scenarios.</p>
         </div>
+
     </div>
 </div>
 <br>
-
-
-<div class="container text position-relative d-block d-mb-block d-lg-none">
-    <div class="row">
-
-        <div class="col-7 text-end"
-             style="font-family: 'Bahnschrift', sans-serif; font-size: 2rem; font-weight: bolder; color: #c5e8ef;">
-            Make sound bright
-        </div>
-
-        <div class="col-4" style="color: #c5e8ef; font-size: 8px!important;">
-            <br>
-            <p>IWCS are known for their
-                understanding that effective
-                communication is paramount
-                in high-stress scenarios.</p>
-        </div>
-x
-    </div>
-</div>
-<br>
-
-
 
 
 <?php include 'bottom.php'; ?>
