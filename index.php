@@ -35,16 +35,16 @@
 <body>
 
 <!-- Cover -->
-<img class="bg position-absolute d-none d-mb-none d-lg-block" src="images/waterCircleNy.webp" alt="background desktop">
-<img class="bg position-absolute d-block d-sm-block d-md-block d-lg-none" src="images/mobilebg.webp" alt="background mobile">
+<section><img class="bg position-absolute d-none d-mb-none d-lg-block" src="images/waterCircledesktopnew.webp" alt="background desktop">
 
-
-<header class="d-none d-lg-block position-relative">
     <?php include 'nav.php'; ?>
-</header>
+
+</section>
 
 <header class="hero d-lg-none d-block position-relative"><img src="images/waterCirclemobile.webp" alt="heroimage">
+
     <?php include 'nav.php'; ?>
+
 </header>
 
 
@@ -81,7 +81,7 @@
     </div>
 </div>
 
-<div class="container-fluid col-12" style="height: 6rem;"></div>
+<div class="container-fluid col-12" style="height: 12rem;"></div>
 
 <!-- Accordion -->
 <div class="container-fluid justify-content-center">
@@ -93,11 +93,10 @@
      <div class="row">
         <div class="col-12 col-md-8 col-lg-8 mx-auto">
 
-            <div class="accordion accordion-flush id=" accordionFlushExample
-            ">
+            <div class="accordion accordion-flush id=" accordionFlushExample">
 
             <div class="row underrubrik m-2"><h1>IWCS x Raymarine</h1></div>
-
+            <div class="intercomimage">
             <div class="accordion-item active">
                 <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -157,6 +156,7 @@
                 </div>
             </div>
 
+
             <!-- Social media -->
             <div class="container-fluid justify-content-end socialMedia">
                 <div class="row">
@@ -168,19 +168,23 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid col-12" style="height: 4rem;"></div>
+            <div class="container-fluid col-12" style="height: 14rem;"></div>
         </div>
     </div>
 </div>
 
+<div class="container-fluid col-12" style="height: 12rem;"></div>
 
 <!-- Video -->
-<div class="video container-fluid p-0">
+<section class="video container-fluid p-0">
     <video width="100%" height="100%" controls muted autoplay>
         <source src="video/test%208.mp4" type="video/mp4">
         <source src="video/test%208.mp4" type="video/ogg">
     </video>
-</div>
+</section>
+
+
+<div class="container-fluid col-12" style="height: 12rem;"></div>
 
 <!-- Cards -->
 <main>

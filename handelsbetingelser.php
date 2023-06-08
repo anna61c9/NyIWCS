@@ -123,9 +123,6 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
         </div>
 </nav>
 
-
-
-
 <div class="container-fluid col-12" style="height: 2rem;"></div>
 
 <?php foreach ($handelsbetingelser as $Allterms) { ?>
