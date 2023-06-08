@@ -17,6 +17,21 @@
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <meta name="description"
+          content="Intercom made by IWCS, can now be run on Raymarine’s screens.">
+
+    <meta itemprop="name" content="iwcs">
+
+    <meta name="keywords" content="wireless intercom, intercom interface, full duplex intercom">
+
+    <meta property="og:title" content="intercom"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.totallychaos.dk/iwcs"/>
+    <meta property="og:image" content="https://www.totallychaos.dk/iwcs/watercircle.webp"/>
+    <meta property="og:description"
+          content="A new collaboration between IWCS and Raymarine means that IWCS’ intercom can now be run on Raymarine’s screens. This makes it possible for Raymarine to utilize the effective communication system to all their users. "/>
+    <meta property="og:locale" content="en_dk"/>
+
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/styles.scss" rel="stylesheet" type="text/css">
 

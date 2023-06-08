@@ -11,11 +11,14 @@
     <meta name="copyright" content="Information om copyright">
 
     <meta name="description"
-          content="A new collaboration between IWCS and Raymarine means that IWCS’ intercom can now be run on Raymarine’s screens. This makes it possible for Raymarine to utilize the effective communication system to all their users. ">
+          content="A new collaboration between IWCS and Raymarine means that IWCS’ intercom
+          can now be run on Raymarine’s screens.
+          This makes it possible for Raymarine to utilize the effective communication system to all their users. ">
 
     <meta itemprop="name" content="iwcs">
 
-    <meta name="keywords" content="søgeord, søgeord, søgeord">
+    <meta name="keywords" content="intercom, intercom system, intercom company, intercom solutions,
+    intercom communications systems, headset noise canceling, 2 way communication, intercom system for home, noise canceling head phones,">
 
     <meta property="og:title" content="intercom"/>
     <meta property="og:type" content="website"/>
