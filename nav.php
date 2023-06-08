@@ -3,7 +3,7 @@ echo '
     
     
     <!-- Brand -->
-<nav class="navbar navbar-light">
+<nav class="navbar navbar-light position-absolute" style="top: 0px;">
     <div class="container-fluid justify-content-center d-flex">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12">
             <div class="row mt-2">

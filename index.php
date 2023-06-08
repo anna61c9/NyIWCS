@@ -34,9 +34,13 @@
 <img class="bg position-absolute d-block d-sm-block d-md-block d-lg-none" src="images/mobilebg.webp" alt="background mobile">
 
 
-<?php include 'nav.php'; ?>
+<header class="d-none  d-lg-block position-relative">
+    <?php include 'nav.php'; ?>
+</header>
 
-<header class="hero d-lg-none d-mb-block d-sm-block d-block position-relative"><img src="images/waterCirclemobile.webp" alt="heroimage"></header>
+<header class="hero d-lg-none d-block position-relative"><img src="images/waterCirclemobile.webp" alt="heroimage">
+    <?php include 'nav.php'; ?>
+</header>
 
 
 <div class="container-fluid col-12 d-none d-sm-none d-mb-none d-lg-block" style="height: 20rem;"></div>
@@ -79,7 +83,7 @@
 
     <div class="container-fluid col-12" style="height: 10rem;"></div>
 
-    <img src="images/mobilbgintercom.webp" class="d-block d-sm-block d-mb-block d-lg-none bg-mobile position-absolute top-0 start-0" alt="intercom">
+    <img src="images/mobilbgintercom.webp" class="d-block d-lg-none bg-mobile position-absolute top-0 start-0" alt="intercom">
 
     <div class="row">
         <div class="col-12 col-md-8 col-lg-8 mx-auto">
