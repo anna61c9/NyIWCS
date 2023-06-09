@@ -28,15 +28,25 @@
     </div>
 </div>
 
-<div class="container-fluid position-relative">
-    <div class="row col-12">
-    <div class="error justify-content-center"
-        <img src="images/404.png" alt="404" style="width: 100%;"></div>
-</div>
+<div class="container col-8">
+    <div class="row text-center p-5">
+    <h1>Oops!...</h1>
+    </div>
 </div>
 
-<div class="container" style="height: 100vh; width: 50rem; display: flex; justify-content: center; align-items: center;">
-    <img src="images/404.png" alt="Image" class="img-fluid">
+<br>
+
+<div class="container" style="color:whitesmoke; width: 80vh; display: flex; justify-content: center; align-items: center;">
+    <img src="images/404.png" alt="404" class="img-fluid error">
+</div>
+
+<br>
+
+<div class="container col-8 justify-content-center">
+    <div class="row text-center p-5">
+    <h3>Looks like you've stumbled upon uncharted audio territory.</h3>
+        <h5>While our intercom system won't navigate you through this 404 page, it's busy saving lives with its incredible sound technology. Now, let's steer you back on track. Hit that 'arrow' button to embark on an exhilarating journey through our campaign website, where you'll discover how our life-saving intercom system revolutionizes communication. Together, we're amplifying safety, one conversation at a time!</h5>
+    </div>
 </div>
 
 <div class="container-fluid col-12" style="height: 8rem;"></div>
