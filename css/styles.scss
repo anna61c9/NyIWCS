@@ -12,13 +12,6 @@ body {
 
 }
 
-.pageterms{
-	min-height: 100vh;
-	background-image: url("../images/demoBackdrop.png");
-	background-size: cover;
-	background-position: center;
-
-}
 
 .bg { position: absolute; overflow: hidden; top: 0; left: 0; }
 .bgwidth { width: 100%; }
@@ -105,7 +98,7 @@ $black: #282936;
 	display: grid;
 	padding: 0;
 	--bs-gutter-x: 0rem;
-	height: 0rem;
+	height: 0;
 	margin-top: 4% !important;
 }
 
@@ -355,7 +348,7 @@ main {
 }
 
 .overgang{
-	background-image: url("../images/");
+	background-image: url("../images/overgangbg.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

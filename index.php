@@ -60,7 +60,6 @@ background-size: cover; min-height: 100vh; background-position: center;">
         <div class="row mx-auto">
             <h2>Communication can save lives</h2>
         </div>
-
     </div>
 </div>
 
@@ -81,7 +80,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
     </div>
 </div>
 
-<div class="container-fluid col-12 d-none d-lg-block" style="height: 10rem;">
+<div class="container-fluid col-12 d-none d-sm-none d-mb-block d-lg-block" style="height: 20vh;">
     <div class="overgang"></div>
 
 </div>
