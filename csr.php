@@ -21,6 +21,14 @@
 <?php include 'nav.php'; ?>
 
 <div class="container-fluid position-relative">
+    <div class="row p-3">
+        <div class="col">
+            <a href="index.php"><img src="images/back.png" class="img" style="width: 2em" alt="back"></a>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid position-relative">
     <div class="row col-12">
     <div class="error justify-content-center"
         <img src="images/404.png" alt="404" style="width: 100%;"></div>
