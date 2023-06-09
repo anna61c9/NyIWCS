@@ -18,17 +18,21 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/terms.scss" rel="stylesheet" type="text/css">
+    <link href="css/backgrounds.scss" rel="stylesheet" type="text/css">
+
+    <!-- <link rel="stylesheet" href="styles.scss"> -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body style="background-image: url(images/demoBackdrop.png);
+background-size: cover; min-height: 100vh; background-position: center;">
 
 <?php include 'nav.php'; ?>
 
 <div class="container-fluid col-12" style="height: 15vh;"></div>
 
 <!-- Back -->
-<div class="container-fluid position-relative mx-3">
+<div class="container-fluid position-relative my-3">
     <div class="row p-3">
         <div class="col">
             <a href="index.php"><img src="images/back.png" class="img" style="width: 2em" alt="back"></a>
@@ -76,6 +80,8 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
         </div>
     </main>
 <?php } ?>
+
+<div class="container-fluid col-12" style="height: 6vh;"></div>
 
 <?php include 'bottom.php'; ?>
 

@@ -26,11 +26,13 @@
           content="Discover the powerful collaboration between IWCS and Raymarine, revolutionizing communication in the maritime industry. Experience seamless and efficient communication on Raymarine's screens, integrated with IWCS' advanced intercom technology. Stay connected, stay safe, and stay ahead with this groundbreaking partnership. Enhance your boating experience with intuitive and streamlined communication capabilities, ensuring convenience and productivity. Join IWCS and Raymarine as they drive innovation and set new industry standards, delivering comprehensive solutions to customers. Explore the future of maritime communication and unlock a world of possibilities. Experience safer, smarter, and more connected boating with IWCS and Raymarine's game-changing collaboration. Discover the potential of IWCS' intercom on Raymarine screens, enabling efficient communication for maritime professionals in rescue missions. Embrace the next generation of maritime technology, as IWCS and Raymarine redefine the way professionals stay connected on the water"/>
     <meta property="og:locale" content="en_dk"/>
 
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.scss" rel="stylesheet" type="text/css">
+    <link href="css/backgrounds.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body style="background-image:url(images/backgroundnew.webp);
+background-size: cover; min-height: 100vh; background-position: center;">
 
 <!-- Cover -->
 <section>
@@ -165,6 +167,7 @@
             <div class="container-fluid col-12" style="height: 14rem;"></div>
         </div>
     </div>
+</div>
 </div>
 
 <div class="container-fluid col-12 d-none d-lg-block" style="height: 10rem;"></div>

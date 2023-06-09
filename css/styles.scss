@@ -9,6 +9,15 @@ body {
 	line-height: 1.5;
 	/* align-items: center; */
 
+
+}
+
+.pageterms{
+	min-height: 100vh;
+	background-image: url("../images/demoBackdrop.png");
+	background-size: cover;
+	background-position: center;
+
 }
 
 .bg { position: absolute; overflow: hidden; top: 0; left: 0; }
@@ -388,11 +397,4 @@ main {
 
 #myBtn:hover {
 	background-color: #1a1e21; /* Add a dark-grey background on hover */
-}
-
-
-.csrbg{
-		width: 100vw;
-		background-size: cover;
-		background-position: center;
 }
