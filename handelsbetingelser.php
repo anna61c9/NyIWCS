@@ -23,9 +23,19 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
 </head>
 <body>
 
-<!-- Cover -->
-
 <?php include 'nav.php'; ?>
+
+<div class="container-fluid col-12" style="height: 15vh;"></div>
+
+<!-- Back -->
+<div class="container-fluid position-relative mx-3">
+    <div class="row p-3">
+        <div class="col">
+            <a href="index.php"><img src="images/back.png" class="img" style="width: 2em" alt="back"></a>
+        </div>
+    </div>
+</div>
+
 <div class="container-fluid col-12 position-relative" style="height: 6rem;"></div>
 <div class="seleclist container col-7 mt-2">
     <form action="/action_page.php">

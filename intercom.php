@@ -44,8 +44,10 @@
 <img class="bg d-block d-mb-block d-lg-none" src="images/backDropSmall.png" alt="background">
 <?php include 'nav.php'; ?>
 
+<div class="container-fluid col-12" style="height: 15vh;"></div>
+
 <!-- Back -->
-<div class="container-fluid position-relative">
+<div class="container-fluid position-relative mx-2">
     <div class="row p-3">
         <div class="col">
             <a href="index.php"><img src="images/back.png" class="img" style="width: 2em" alt="back"></a>

@@ -33,7 +33,8 @@
 <body>
 
 <!-- Cover -->
-<section><img class="bg position-absolute d-none d-mb-none d-lg-block" src="images/waterCircledesktopnew.webp" alt="background desktop">
+<section>
+    <img class="bg position-absolute d-none d-mb-none d-lg-block" src="images/waterCircledesktopnew.webp" alt="background desktop">
 
     <?php include 'nav.php'; ?>
 
@@ -44,7 +45,6 @@
     <?php include 'nav.php'; ?>
 
 </header>
-
 
 <div class="container-fluid col-12 d-none d-sm-none d-mb-none d-lg-block" style="height: 50vh;"></div>
 
