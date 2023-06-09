@@ -24,7 +24,6 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
 <body>
 
 <!-- Cover -->
-<img src="images/demoBackdrop.png" alt="background" class="position-absolute bg-image">
 
 <?php include 'nav.php'; ?>
 <div class="container-fluid col-12 position-relative" style="height: 6rem;"></div>

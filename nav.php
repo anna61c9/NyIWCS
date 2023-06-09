@@ -3,16 +3,14 @@ echo '
     
     
     <!-- Brand -->
-<nav class="navbar navbar-light position-absolute" style="top: 0;">
-    <div class="container-fluid justify-content-center">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <div class="row mt-2">
-                <a class="navbar-brand " href="index.php"><img src="images/logo.png" style=" width: 6em; !important" class="img mx-auto" alt="brand"></a>
-            </div>
+<nav class="navbar navbar-light position-absolute" style="top: 0; width: 100%;">
+    <div class="container-fluid">
+        <div class="row mt-2">
+            <a class="navbar-brand" href="index.php">
+                <img src="images/logo.png" style="max-width: 9em; width: 100%; height: auto; display: block; margin: 0 auto;" class="img-fluid mx-auto d-block" alt="brand">
+            </a>
         </div>
     </div>
 </nav>
-
-    
 ';
 ?>
