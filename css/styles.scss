@@ -10,11 +10,8 @@ body {
 	/* align-items: center; */
 	justify-content: center;
 	min-height: 100vh;
-
-	@media screen {
-
-	}
-
+	background: rgb(6,7,10);
+	background: linear-gradient(180deg, rgba(6,7,10,1) 0%, rgba(17,28,42,1) 47%, rgba(66,70,101,1) 100%);
 }
 
 .bg { position: absolute; overflow: hidden; top: 0; left: 0; }
@@ -351,9 +348,17 @@ main {
 
 }
 
+.overgang{
+	background-image: url("../images/");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
 .intercomimage {
 	background-image: url('../images/intercombg.webp');
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 
@@ -386,4 +391,8 @@ main {
 
 #myBtn:hover {
 	background-color: #1a1e21; /* Add a dark-grey background on hover */
+}
+
+.error{
+
 }
