@@ -80,7 +80,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
     </div>
 </div>
 
-<div class="container-fluid col-12 d-none d-sm-none d-mb-none d-lg-block" style="height: 9vw;"></div>
+<div class="container-fluid col-12 d-none d-sm-none d-mb-none d-lg-block" style="height: 12vw;"></div>
 
 <!-- Accordion -->
 <div class="container-fluid justify-content-center">
