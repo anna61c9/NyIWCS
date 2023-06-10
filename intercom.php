@@ -33,19 +33,23 @@
     <meta property="og:locale" content="en_dk"/>
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+
     <link href="css/styles.scss" rel="stylesheet" type="text/css">
+
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body style="background-image: url(images/demoBackdrop.png);
+background-size: cover; min-height: 100vh; background-position: center;">
 
-<img class="bg d-none d-mb-none d-lg-block" src="images/demoBackdrop.png" alt="background">
-<img class="bg d-block d-mb-block d-lg-none" src="images/backDropSmall.png" alt="background">
+
 <?php include 'nav.php'; ?>
 
+<div class="container-fluid col-12" style="height: 15vh;"></div>
+
 <!-- Back -->
-<div class="container-fluid position-relative">
+<div class="container-fluid position-relative my-2">
     <div class="row p-3">
         <div class="col">
             <a href="index.php"><img src="images/back.png" class="img" style="width: 2em" alt="back"></a>
@@ -125,6 +129,7 @@
 </div>
 <br>
 
+<div class="container-fluid col-12" style="height: 7vh;"></div>
 
 <?php include 'bottom.php'; ?>
 

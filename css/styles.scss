@@ -8,14 +8,10 @@ body {
 	font-size: 1rem;
 	line-height: 1.5;
 	/* align-items: center; */
-	justify-content: center;
-	min-height: 100vh;
 
-	@media screen {
-
-	}
 
 }
+
 
 .bg { position: absolute; overflow: hidden; top: 0; left: 0; }
 .bgwidth { width: 100%; }
@@ -102,8 +98,17 @@ $black: #282936;
 	display: grid;
 	padding: 0;
 	--bs-gutter-x: 0rem;
-	height: 0rem;
-	margin-top: 10% !important;
+	height: 0;
+	margin-top: 4% !important;
+}
+
+@media screen and (max-width: 1000px){
+
+	.CTA{
+		height: 1vw;
+		transform: translatey(-9150%);
+	}
+
 }
 
 button {
@@ -249,6 +254,10 @@ button {
 	font-kerning: auto;
 }
 
+.accordion-button:after {
+	background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
 .accordion-header {
 	border-bottom: whitesmoke;
 }
@@ -351,9 +360,17 @@ main {
 
 }
 
-.intercomimage {
-	background-image: url('../images/mobilbgintercom.webp');
+.overgang{
+	background-image: url("../images/overgangbg.png");
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.intercomimage {
+	background-image: url('../images/intercombg.webp');
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 
