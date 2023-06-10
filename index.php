@@ -67,7 +67,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <div class="container-fluid col-12" style="height: 2rem;"></div>
 
 <!-- CTA -->
-<div id="container d-flex">
+<div id="container d-flex" class="track">
     <div class="row CTA">
         <div class="col col-md-8 col-lg-12">
             <button class="learn-more">
@@ -80,10 +80,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
     </div>
 </div>
 
-<div class="container-fluid col-12 d-none d-sm-none d-mb-block d-lg-block" style="height: 20vh;">
-    <div class="overgang"></div>
-
-</div>
+<div class="container-fluid col-12 d-none d-sm-none d-mb-none d-lg-block" style="height: 40vh;"></div>
 
 <!-- Accordion -->
 <div class="container-fluid justify-content-center">
@@ -92,13 +89,13 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
     <div class="container-fluid col-12" style="height: 10rem;"></div>
 
+
      <div class="row">
         <div class="col-12 col-md-8 col-lg-8 mx-auto">
 
             <div class="accordion accordion-flush id=" accordionFlushExample">
 
             <div class="row underrubrik m-2"><h1>IWCS x Raymarine</h1></div>
-
             <div class="intercomimage">
 
                 <div class="accordion-item active">
