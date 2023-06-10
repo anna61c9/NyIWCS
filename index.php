@@ -31,7 +31,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body style="background-image:url(images/bgWater2.webp);
+<body style="background-image:url(images/backgroundnew.webp);
 background-size: cover; min-height: 100vh; background-position: center;">
 
 <!-- Cover -->
@@ -87,7 +87,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
 
 
-    <div class="container-fluid col-12" style="height: 10rem;"></div>
+    <div class="container-fluid col-12 d-none d-sm-none d-md-none d-lg-block" style="height: 10rem;"></div>
 
 
      <div class="row">
