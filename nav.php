@@ -3,7 +3,7 @@ echo '
     
     
     <!-- Brand -->
-<nav class="navbar navbar-light position-absolute d-none d-sm-none d-md-block d-lg-block" style="top: 0; width: 100%;">
+<nav class="navbar navbar-light position-absolute d-none d-sm-block d-md-block d-lg-block" style="top: 0; width: 100%;">
     <div class="container-fluid">
         <div class="row mt-2">
             <a class="navbar-brand" style="  transform: translateX(-50%); left: 50%; position: absolute;"  href="index.php">
@@ -13,7 +13,7 @@ echo '
     </div>
 </nav>
 
-<nav class="navbar navbar-light position-absolute d-block d-sm-block d-mb-none d-lg-none" style="top: 0; width: 100%;">
+<nav class="navbar navbar-light position-absolute d-block d-sm-none d-mb-none d-lg-none" style="top: 0; width: 100%;">
     <div class="container-fluid">
         <div class="row mt-2">
             <a class="navbar-brand" style="  transform: translateX(-50%); left: 50%; position: absolute;" href="index.php" >
