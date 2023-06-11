@@ -48,7 +48,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
 </header>
 
-<div class="container-fluid col-12 d-none d-sm-none d-mb-none d-lg-block" style="height: 24vw;"></div>
+<div class="container-fluid col-12 d-none d-sm-none d-mb-none d-lg-block" style="height: 25vw;"></div>
 
 <div class="underrubrik container-fluid justify-content-center d-none" style="opacity: 0;">
     <div class="col">
@@ -80,14 +80,14 @@ background-size: cover; min-height: 100vh; background-position: center;">
     </div>
 </div>
 
-<div class="container-fluid col-12 d-none d-sm-none d-mb-none d-lg-block" style="height: 12vw;"></div>
+<div class="container-fluid col-12 d-none d-sm-none d-mb-none d-lg-block" style="height: 14vw;"></div>
 
 <!-- Accordion -->
 <div class="container-fluid justify-content-center">
 
 
 
-    <div class="container-fluid col-12" style="height: 10rem;"></div>
+    <div class="container-fluid col-12 d-none d-sm-none d-md-none d-lg-block" style="height: 10rem;"></div>
 
 
      <div class="row">
