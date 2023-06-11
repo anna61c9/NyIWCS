@@ -16,15 +16,15 @@
     <meta itemprop="name" content="iwcs">
 
     <meta name="keywords" content="intercom, intercom system, intercom company, intercom solutions,
-    intercom communications systems, headset noise canceling, 2 way communication, intercom system for home, noise canceling head phones,">
+    intercom communications systems, headset noise canceling, 2 way communication, intercom system for home, noise canceling head phones">
 
-    <meta property="og:title" content="intercom"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://www.totallychaos.dk/iwcs"/>
-    <meta property="og:image" content="https://www.totallychaos.dk/iwcs/watercircle.webp"/>
+    <meta property="og:title" content="intercom">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.totallychaos.dk/iwcs">
+    <meta property="og:image" content="https://www.totallychaos.dk/iwcs/watercircle.webp">
     <meta property="og:description"
-          content="Discover the powerful collaboration between IWCS and Raymarine, revolutionizing communication in the maritime industry. Experience seamless and efficient communication on Raymarine's screens, integrated with IWCS' advanced intercom technology. Stay connected, stay safe, and stay ahead with this groundbreaking partnership. Enhance your boating experience with intuitive and streamlined communication capabilities, ensuring convenience and productivity. Join IWCS and Raymarine as they drive innovation and set new industry standards, delivering comprehensive solutions to customers. Explore the future of maritime communication and unlock a world of possibilities. Experience safer, smarter, and more connected boating with IWCS and Raymarine's game-changing collaboration. Discover the potential of IWCS' intercom on Raymarine screens, enabling efficient communication for maritime professionals in rescue missions. Embrace the next generation of maritime technology, as IWCS and Raymarine redefine the way professionals stay connected on the water"/>
-    <meta property="og:locale" content="en_dk"/>
+          content="Discover the powerful collaboration between IWCS and Raymarine, revolutionizing communication in the maritime industry. Experience seamless and efficient communication on Raymarine's screens, integrated with IWCS' advanced intercom technology. Stay connected, stay safe, and stay ahead with this groundbreaking partnership. Enhance your boating experience with intuitive and streamlined communication capabilities, ensuring convenience and productivity. Join IWCS and Raymarine as they drive innovation and set new industry standards, delivering comprehensive solutions to customers. Explore the future of maritime communication and unlock a world of possibilities. Experience safer, smarter, and more connected boating with IWCS and Raymarine's game-changing collaboration. Discover the potential of IWCS' intercom on Raymarine screens, enabling efficient communication for maritime professionals in rescue missions. Embrace the next generation of maritime technology, as IWCS and Raymarine redefine the way professionals stay connected on the water">
+    <meta property="og:locale" content="en_dk">
 
     <link href="css/styles.scss" rel="stylesheet" type="text/css">
     <link href="css/backgrounds.css" rel="stylesheet" type="text/css">
