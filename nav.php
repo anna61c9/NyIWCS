@@ -21,3 +21,5 @@ echo '
     </div>
 </nav>';
 ?>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<link href="css/styles.scss" rel="stylesheet" type="text/css">
