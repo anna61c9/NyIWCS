@@ -196,7 +196,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
             <div class="card m-3 col-md-12">
                 <img src="images/Cardmany.webp" alt="many to many">
-                <img src="images/card%20A.png"
+                <img src="images/card%20A.webp"
                      alt="">
                 <div class="card-content">
                     <h2>
@@ -210,7 +210,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
             <div class="card m-3 col-md-12">
                 <img src="images/card2.webp" alt="noise reduction">
-                <img src="images/card%20B.png"
+                <img src="images/card%20B.webp"
                      alt="">
                 <div class="card-content">
                     <h2>
@@ -224,7 +224,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
             <div class="card m-3 col-md-12">
                 <img src="images/card4.webp" alt="control panel">
-                <img src="images/card%20C.png"
+                <img src="images/card%20C.webp"
                      alt="">
                 <div class="card-content">
                     <h2>
@@ -279,7 +279,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
             </div>
             <div class="row justify-content-center">
                 <a href="mailto:info@iwcs.eu" class="block1 col-5 d-flex justify-content-end align-items-center"><img
-                            src="images/adress.png" alt="mail" style="width:60px;"></a>
+                            src="images/adress.webp" alt="mail" style="width:60px;"></a>
 
                 <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="80" viewBox="0 0 4 422.788">

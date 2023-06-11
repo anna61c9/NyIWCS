@@ -25,7 +25,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <div class="container-fluid position-relative my-3">
     <div class="row p-3">
         <div class="col">
-            <a href="index.php"><img src="images/back.png" class="img" style="width: 2em;" alt="back"></a>
+            <a href="index.php"><img src="images/back.webp" class="img" style="width: 2em;" alt="back"></a>
         </div>
     </div>
 </div>
@@ -39,7 +39,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <br>
 
 <div class="container position-relative" style="color: whitesmoke; width: 50vw; height: auto; display: flex; justify-content: center; align-items: center;">
-    <img src="images/404.png" alt="404" style="max-width: 100%; height: auto;" class="img-fluid">
+    <img src="images/404.webp" alt="404" style="max-width: 100%; height: auto;" class="img-fluid">
 </div>
 
 <br>

@@ -52,7 +52,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <div class="container-fluid position-relative my-2">
     <div class="row p-3">
         <div class="col">
-            <a href="index.php"><img src="images/back.png" class="img" style="width: 2em" alt="back"></a>
+            <a href="index.php"><img src="images/back.webp" class="img" style="width: 2em" alt="back"></a>
         </div>
     </div>
 </div>
@@ -72,19 +72,19 @@ background-size: cover; min-height: 100vh; background-position: center;">
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="images/UdklipA.PNG" class="d-block w-100" alt="Interface">
+            <img src="images/UdklipA.webp" class="d-block w-100" alt="Interface">
             <div class="carousel-caption d-md-block d-lg-none">
                 <h5>Intercom controls</h5>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="images/UdklipB.PNG" class="d-block w-100" alt="Interface">
+            <img src="images/UdklipB.webp" class="d-block w-100" alt="Interface">
             <div class="carousel-caption d-md-block d-lg-none">
                 <h5>Intercom custom</h5>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="images/UdklipC.PNG" class="d-block w-100" alt="Interface">
+            <img src="images/UdklipC.webp" class="d-block w-100" alt="Interface">
             <div class="carousel-caption d-md-block d-lg-none">
                 <h5>Intercom settings</h5>
             </div>
