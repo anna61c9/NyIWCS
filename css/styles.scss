@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 	font-family: 'Bahnschrift', sans-serif;
-	color: whitesmoke;
+	color: #f8f9fa;
 	font-stretch: condensed;
 }
 
@@ -51,44 +51,6 @@ img {
 	height: auto;
 }
 
-// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
-@import "../node_modules/bootstrap/scss/functions";
-
-// 2. Include any default variable overrides here
-$link-decoration: none;
-
-// 3. Include remainder of required Bootstrap stylesheets
-@import "../node_modules/bootstrap/scss/variables";
-
-// 4. Include any default map overrides here
-$custom-colors: (
-	"farve": $cyan-400,
-);
-
-$theme-colors: map-merge($theme-colors, $custom-colors);
-
-@import "bootstrapComponents";
-
-// 5. Du kan lave styling her...
-
-
-
-/* CTA */
-
-$bg: #050550;
-$white: whitesmoke;
-$black: #282936;
-
-@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
-	transition: $property $duration $ease;
-}
-
-* {
-	box-sizing: border-box;
-	&::before, &::after {
-		box-sizing: border-box;
-	}
-}
 
 .CTA {
 	justify-content: center;
@@ -126,7 +88,6 @@ button {
 		width: 12rem;
 		height: auto;
 		.circle {
-			@include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
 			position: relative;
 			display: block;
 			margin: 0;
@@ -135,14 +96,12 @@ button {
 			background: #dc8344;
 			border-radius: 1.625rem;
 			.icon {
-				@include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
 				position: absolute;
 				top: 0;
 				bottom: 0;
 				margin: auto;
-				background: $white;
+				background: #f8f9fa;
 				&.arrow {
-					@include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
 					left: 0.625rem;
 					width: 1.125rem;
 					height: 0.125rem;
@@ -162,7 +121,6 @@ button {
 			}
 		}
 		.button-text {
-			@include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -170,7 +128,7 @@ button {
 			bottom: 0;
 			padding: 0.75rem 0;
 			margin: 0 0 0 1.85rem;
-			color: $white;
+			color: #f8f9fa;
 			font-weight: 700;
 			line-height: 1.6;
 			text-align: center;
@@ -184,44 +142,28 @@ button {
 			width: 100%;
 			.icon {
 				&.arrow {
-					background: $white;
+					background: #f8f9fa;
 					transform: translate(1rem, 0);
 				}
 			}
 		}
 		.button-text {
-			color: $white;
+			color: #f8f9fa;
 		}
 	}
 }
 
 
-/*
-@supports (display: grid) {
-	body {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		grid-gap: 0.625rem;
-		grid-template-areas: ". main main ." ". main main .";
-	}
-
-	#container {
-		grid-area: main;
-		align-self: center;
-		justify-self: center;
-	}
-}*/
-
 /* accordion */
 
 .accordion .h1 {
-	color: $white;
+	color: #f8f9fa;
 }
 .accordion-button{
 	font-weight: bolder;
 }
 
-.underrubrik {
+.rubric {
 	position: relative;
 }
 
@@ -242,7 +184,7 @@ button {
 	background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
-/* sociale medier */
+/* social media */
 
 .socialMedia {
 	position: relative;
