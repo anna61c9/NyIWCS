@@ -35,12 +35,13 @@
 background-size: cover; min-height: 100vh; background-position: center;">
 
 <!-- Cover -->
-<section>
-    <img class="bg position-absolute d-none d-mb-none d-lg-block" src="images/waterCircledesktopnew.webp" alt="background desktop">
+<div>
+    <img class="bg position-absolute d-none d-mb-none d-lg-block" src="images/waterCircledesktopnew.webp"
+         alt="background desktop">
 
     <?php include 'nav.php'; ?>
 
-</section>
+</div>
 
 <header class="hero d-lg-none d-block position-relative"><img src="images/waterCirclemobile.webp" alt="heroimage">
 
@@ -67,7 +68,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <div class="container-fluid col-12" style="height: 2rem;"></div>
 
 <!-- CTA -->
-<div id="container d-flex" class="track">
+<div id="container" class="track">
     <div class="row CTA">
         <div class="col col-md-8 col-lg-12">
             <button class="learn-more">
@@ -86,84 +87,94 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <div class="container-fluid justify-content-center">
 
 
-
     <div class="container-fluid col-12 d-none d-sm-none d-md-none d-lg-block" style="height: 10rem;"></div>
 
 
-     <div class="row">
+    <div class="row">
         <div class="col-12 col-md-8 col-lg-8 mx-auto">
 
-            <div class="accordion accordion-flush id=" accordionFlushExample">
+            <div class="accordion accordion-flush id=" accordionFlushExample
+            ">
 
             <div class="row underrubrik m-2"><h1>IWCS x Raymarine</h1></div>
             <div class="intercomimage">
 
                 <div class="accordion-item active">
-                <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseOne" aria-expanded="false"
-                            aria-controls="flush-collapseOne">
-                        Collaboration
-                    </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne"
-                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">To make sure as many as possible are able to use this revolutionary technology,
-                        Raymarine and IWCS have joined forces to open up exciting opportunities in the future.
-                        Together, they aim to facilitate widespread adoption, ensuring its transformative potential reaches a vast and diverse audience.
-                        This collaborative endeavor underscores the commitment of Raymarine and IWCS driving innovation and effective equipment to its users.
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                            Collaboration
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                         aria-labelledby="flush-headingOne"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">To make sure as many as possible are able to use this revolutionary
+                            technology,
+                            Raymarine and IWCS have joined forces to open up exciting opportunities in the future.
+                            Together, they aim to facilitate widespread adoption, ensuring its transformative potential
+                            reaches a vast and diverse audience.
+                            This collaborative endeavor underscores the commitment of Raymarine and IWCS driving
+                            innovation and effective equipment to its users.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                            aria-controls="flush-collapseTwo">
-                        Product
-                    </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">The iriSelect Black Box offers an effective solution to the challenge of creating a user-friendly, intuitive, and clutter-free instrument panel.
-                        This innovative technology allows for easy control of the iriSound Intelligent Intercom system through the existing Multifunction Functional Display (MFD).
-                        With all of the familiar functions of iriSelect available, users can now also effortlessly manage the recording function through iriStore, mobile phone, and hailer, all controlled via the MFD.
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                            Product
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The iriSelect Black Box offers an effective solution to the
+                            challenge of creating a user-friendly, intuitive, and clutter-free instrument panel.
+                            This innovative technology allows for easy control of the iriSound Intelligent Intercom
+                            system through the existing Multifunction Functional Display (MFD).
+                            With all of the familiar functions of iriSelect available, users can now also effortlessly
+                            manage the recording function through iriStore, mobile phone, and hailer, all controlled via
+                            the MFD.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseThree" aria-expanded="false"
-                            aria-controls="flush-collapseThree">
-                        Screen layout
-                    </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse"
-                     aria-labelledby="flush-headingThree"
-                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">The interface adapts to your Multi-Function Display, generating a layout based on your intercom configuration and connected devices.
-                        For fleets with uniform vessels and multiple users, IWCS can design a customized layout to optimize the user experience.
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                            Screen layout
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                         aria-labelledby="flush-headingThree"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The interface adapts to your Multi-Function Display, generating a
+                            layout based on your intercom configuration and connected devices.
+                            For fleets with uniform vessels and multiple users, IWCS can design a customized layout to
+                            optimize the user experience.
+                        </div>
                     </div>
                 </div>
-            </div>
 
 
-            <!-- Social media -->
-            <div class="container-fluid justify-content-end socialMedia">
-                <div class="row">
-                    <div class="col-12 m-2 col-md-8 col-lg-8">
-                        <a href="https://www.linkedin.com/company/iridiumwaterproof/?originalSubdomain=dk"><img
-                                    src="images/inHvid.png" class="img m-2" alt="linkedin"></a>
-                        <a href="https://www.youtube.com/@IWCSDenmark"><img src="images/youtube.png" class="img m-2"
-                                                                            alt="Youtube"></a>
+                <!-- Social media -->
+                <div class="container-fluid justify-content-end socialMedia">
+                    <div class="row">
+                        <div class="col-12 m-2 col-md-8 col-lg-8">
+                            <a href="https://www.linkedin.com/company/iridiumwaterproof/?originalSubdomain=dk"><img
+                                        src="images/inHvid.png" class="img m-2" alt="linkedin"></a>
+                            <a href="https://www.youtube.com/@IWCSDenmark"><img src="images/youtube.png" class="img m-2"
+                                                                                alt="Youtube"></a>
+                        </div>
                     </div>
                 </div>
+                <div class="container-fluid col-12" style="height: 14rem;"></div>
             </div>
-            <div class="container-fluid col-12" style="height: 14rem;"></div>
         </div>
     </div>
-</div>
 </div>
 
 <div class="container-fluid col-12 d-none d-lg-block" style="height: 10rem;"></div>
@@ -193,7 +204,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
                         Many to many
                     </h2>
                     <p>
-                        -	Headset can be connected to multiple devices, all controllable, and used by multiple users.
+                        - Headset can be connected to multiple devices, all controllable, and used by multiple users.
                     </p>
                 </div>
             </div>
