@@ -164,8 +164,8 @@ background-size: cover; min-height: 100vh; background-position: center;">
                     <div class="row">
                         <div class="col-12 m-2 col-md-8 col-lg-8">
                             <a href="https://www.linkedin.com/company/iridiumwaterproof/?originalSubdomain=dk"><img
-                                        src="images/inHvid.png" class="img m-2" alt="linkedin"></a>
-                            <a href="https://www.youtube.com/@IWCSDenmark"><img src="images/youtube.png" class="img m-2"
+                                        src="images/inHvid.webp" class="img m-2" alt="linkedin"></a>
+                            <a href="https://www.youtube.com/@IWCSDenmark"><img src="images/youtube.webp" class="img m-2"
                                                                                 alt="Youtube"></a>
                         </div>
                     </div>
@@ -248,7 +248,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
     <div class="row d-flex justify-content-center">
         <div class="col-12 col-md-5 col-lg-5">
             <div class="row">
-                <div class="block1 col-5 d-flex justify-content-end align-items-center"><img src="images/phone.png"
+                <div class="block1 col-5 d-flex justify-content-end align-items-center"><img src="images/phone.webp"
                                                                                              alt="telephone number"
                                                                                              style="width:60px;"></div>
                 <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
@@ -264,7 +264,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
             <div class="row justify-content-center">
                 <a href="mailto:info@iwcs.eu" class="block1 col-5 d-flex justify-content-end align-items-center"><img
-                            src="images/mail.png" alt="mail" style="width:60px;"></a>
+                            src="images/mail.webp" alt="mail" style="width:60px;"></a>
                 <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="70" viewBox="0 0 4 422.788">
                         <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"

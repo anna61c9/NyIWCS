@@ -40,7 +40,7 @@
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body style="background-image: url(images/demoBackdrop.png);
+<body style="background-image: url(images/demoBackdrop.webp);
 background-size: cover; min-height: 100vh; background-position: center;">
 
 

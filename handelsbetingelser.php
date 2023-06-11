@@ -24,7 +24,7 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body style="background-image: url(images/demoBackdrop.png);
+<body style="background-image: url(images/demoBackdrop.webp);
 background-size: cover; min-height: 100vh; background-position: center;">
 
 <?php include 'nav.php'; ?>
@@ -35,7 +35,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <div class="container-fluid position-relative my-3">
     <div class="row p-3">
         <div class="col">
-            <a href="index.php"><img src="images/back.png" class="img" style="width: 2em" alt="back"></a>
+            <a href="index.php"><img src="images/back.webp" class="img" style="width: 2em" alt="back"></a>
         </div>
     </div>
 </div>

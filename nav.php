@@ -7,7 +7,7 @@ echo '
     <div class="container-fluid">
         <div class="row mt-2">
             <a class="navbar-brand" style="  transform: translateX(-50%); left: 50%; position: absolute;"  href="index.php">
-                <img src="images/logo.png" style="max-width: 9em; width: 100%; height: auto; display: block; margin: 0 auto;" class="img-fluid mx-auto d-block" alt="brand">
+                <img src="images/logo.webp" style="max-width: 9em; width: 100%; height: auto; display: block; margin: 0 auto;" class="img-fluid mx-auto d-block" alt="brand">
             </a>
         </div>
     </div>
@@ -17,7 +17,7 @@ echo '
     <div class="container-fluid">
         <div class="row mt-2">
             <a class="navbar-brand" style="  transform: translateX(-50%); left: 50%; position: absolute;" href="index.php" >
-                <img src="images/logo.png" style="max-width: 10vh; width: 100%; height: auto; display: block; margin: 0 auto;" class="img-fluid mx-auto d-block" alt="brand">
+                <img src="images/logo.webp" style="max-width: 10vh; width: 100%; height: auto; display: block; margin: 0 auto;" class="img-fluid mx-auto d-block" alt="brand">
             </a>
         </div>
     </div>
