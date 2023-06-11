@@ -197,7 +197,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
             <div class="card m-3 col-md-12">
                 <img src="images/Cardmany.webp" alt="many to many">
                 <img src="images/card%20A.webp"
-                     alt="">
+                     alt="communication">
                 <div class="card-content">
                     <h2>
                         Many to many
@@ -211,7 +211,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
             <div class="card m-3 col-md-12">
                 <img src="images/card2.webp" alt="noise reduction">
                 <img src="images/card%20B.webp"
-                     alt="">
+                     alt="Reduction">
                 <div class="card-content">
                     <h2>
                         Noise reduction
@@ -225,7 +225,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
             <div class="card m-3 col-md-12">
                 <img src="images/card4.webp" alt="control panel">
                 <img src="images/card%20C.webp"
-                     alt="">
+                     alt="Panel">
                 <div class="card-content">
                     <h2>
                         Control panel
