@@ -1,8 +1,6 @@
 <?php
 echo '
-    
-    
-    <!-- Brand -->
+<!-- Brand -->
 <nav class="navbar navbar-light position-absolute d-none d-sm-block d-md-block d-lg-block" style="top: 0; width: 100%;">
     <div class="container-fluid">
         <div class="row mt-2">
@@ -21,6 +19,5 @@ echo '
             </a>
         </div>
     </div>
-</nav>
-';
+</nav>';
 ?>

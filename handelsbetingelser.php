@@ -18,7 +18,6 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/terms.scss" rel="stylesheet" type="text/css">
-    <link href="css/backgrounds.scss" rel="stylesheet" type="text/css">
 
     <!-- <link rel="stylesheet" href="styles.scss"> -->
 
