@@ -27,7 +27,7 @@
     <meta property="og:locale" content="en_dk">
 
     <link href="css/styles.scss" rel="stylesheet" type="text/css">
-    <link href="css/backgrounds.css" rel="stylesheet" type="text/css">
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -93,8 +93,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
     <div class="row">
         <div class="col-12 col-md-8 col-lg-8 mx-auto">
 
-            <div class="accordion accordion-flush id=" accordionFlushExample
-            ">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
 
             <div class="row underrubrik m-2"><h1>IWCS x Raymarine</h1></div>
             <div class="intercomimage">
