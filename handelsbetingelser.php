@@ -28,7 +28,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
 <?php include 'nav.php'; ?>
 
-<div class="container-fluid col-12" style="height: 15vh;"></div>
+<div class="container-fluid col-12" style="height: 0vh;"></div>
 
 <!-- Back -->
 <div class="container-fluid position-relative my-3">

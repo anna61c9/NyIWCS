@@ -280,7 +280,7 @@ main {
 	height: 20rem;
 	border-radius: 10px;
 	overflow: hidden;
-	cursor: pointer;
+	cursor: inherit !important;
 	position: relative;
 	box-shadow: 0 15px 15px 2px rgba(0, 0, 0, 0.6);
 	--bs-card-border-width: 0px;
