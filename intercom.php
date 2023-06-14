@@ -57,6 +57,16 @@ background-size: cover; min-height: 100vh; background-position: center;">
     </div>
 </div>
 
+<div class="container text position-relative d-flex justify-content-center d-none d-mb-block d-lg-block">
+    <div class="row mx-auto">
+        <div class="col-4 col-md-12 col-lg-12" style="font-family: 'Bahnschrift', sans-serif; font-size: 3rem; font-weight: bolder; color: #c5e8ef;">
+            <br>
+            <h1>Click around on this demo to try the interface</h1>
+        </div>
+
+    </div>
+</div>
+
 <div class="container">
     <div class="row" style="height: 2em;"></div>
 </div>
@@ -70,6 +80,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
     </div>
+
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="images/UdklipA.webp" class="d-block w-100" alt="Interface">
