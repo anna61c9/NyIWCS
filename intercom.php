@@ -56,12 +56,14 @@ background-size: cover; min-height: 100vh; background-position: center;">
         </div>
     </div>
 </div>
-
-<div class="container text position-relative d-flex justify-content-center d-none d-mb-block d-lg-block">
+<br>
+<br>
+<div class="container text position-relative d-flex justify-content-center d-none d-mb-block d-lg-block ">
     <div class="row mx-auto">
-        <div class="col-4 col-md-12 col-lg-12" style="font-family: 'Bahnschrift', sans-serif; font-size: 3rem; font-weight: bolder; color: #c5e8ef;">
-            <br>
-            <h1>Click around on this demo to try the interface</h1>
+
+        <div class="col-12 col-md-12 col-lg-12 text-lg-center text-md-center"
+             style="font-family: 'Bahnschrift', sans-serif; font-size: 2rem; font-weight: bolder; color: #c5e8ef;">
+            Try the demo and click around on the interface
         </div>
 
     </div>
