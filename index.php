@@ -51,7 +51,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
 <div class="container-fluid col-12 d-none d-sm-none d-mb-none d-lg-block" style="height: 25vw;"></div>
 
-<div class="underrubrik container-fluid justify-content-center d-none" style="opacity: 0;">
+<div class="rubric container-fluid justify-content-center d-none" style="opacity: 0;">
     <div class="col">
 
         <div class="row mx-auto">
