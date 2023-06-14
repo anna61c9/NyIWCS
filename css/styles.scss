@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 	font-family: 'Bahnschrift', sans-serif;
-	color: whitesmoke;
+	color: #f8f9fa;
 	font-stretch: condensed;
 }
 
@@ -39,6 +39,7 @@ p {
 	font-family: "old baskerville";
 	font-size: large;
 	font-kerning: auto;
+	color: #f8f9fa;
 }
 
 a {
@@ -70,8 +71,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
-
-
 
 /* CTA */
 
@@ -212,34 +211,37 @@ button {
 	}
 }*/
 
+// 5. Du kan lave styling her...
+
+
+
 /* accordion */
 
-.accordion .h1 {
-	color: $white;
+.accordion-item {
+    background-color: transparent;
 }
+
 .accordion-button{
-	font-weight: bolder;
+    font-weight: bolder;
 }
 
 .underrubrik {
-	position: relative;
+    position: relative;
 }
-
 
 .accordion-body {
-	position: relative;
-	font-family: 'old baskerville';
+    position: relative;
+    font-family: 'old baskerville';
+    color: #f8f9fa;
 }
 
-
-
 .accordion-button::after {
-	font-size: 3em;
-	font-kerning: auto;
+    font-size: 3em;
+    font-kerning: auto;
 }
 
 .accordion-button:after {
-	background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
 /* sociale medier */

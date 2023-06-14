@@ -27,7 +27,7 @@
     <meta property="og:locale" content="en_dk">
 
     <link href="css/styles.scss" rel="stylesheet" type="text/css">
-
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -98,7 +98,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
             <div class="row underrubrik m-2"><h1>IWCS x Raymarine</h1></div>
             <div class="intercomimage">
 
-                <div class="accordion-item active">
+                <div class="accordion-item active bg-transparent">
                     <h2 class="accordion-header" id="flush-headingOne">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseOne" aria-expanded="false"
@@ -119,7 +119,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item bg-transparent">
                     <h2 class="accordion-header" id="flush-headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseTwo" aria-expanded="false"
@@ -139,7 +139,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item bg-transparent">
                     <h2 class="accordion-header" id="flush-headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseThree" aria-expanded="false"
