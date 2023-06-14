@@ -57,17 +57,6 @@ background-size: cover; min-height: 100vh; background-position: center;">
     </div>
 </div>
 <br>
-<br>
-<div class="container text position-relative d-flex justify-content-center d-none d-mb-block d-lg-block ">
-    <div class="row mx-auto">
-
-        <div class="col-12 col-md-12 col-lg-12 text-lg-center text-md-center"
-             style="font-family: 'Bahnschrift', sans-serif; font-size: 2rem; font-weight: bolder; color: #c5e8ef;">
-            Try the demo and click around on the interface
-        </div>
-
-    </div>
-</div>
 
 <div class="container">
     <div class="row" style="height: 2em;"></div>
@@ -127,7 +116,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
         <div class="col-12 col-md-6 col-lg-6 text-lg-end text-md-end"
              style="font-family: 'Bahnschrift', sans-serif; font-size: 3rem; font-weight: bolder; color: #c5e8ef;">
-            Make sound bright
+            Explore the demo
         </div>
 
         <div class="col-12 col-md-6 col-lg-6" style="color: #c5e8ef;">
