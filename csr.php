@@ -36,16 +36,14 @@ background-size: cover; min-height: 100vh; background-position: center;">
     </div>
 </div>
 
-<br>
-
 <div class="container position-relative" style="color: whitesmoke; width: 50vw; height: auto; display: flex; justify-content: center; align-items: center;">
-    <img src="images/404.webp" alt="404" style="max-width: 100%; height: auto;" class="img-fluid">
+    <img src="images/404.webp" alt="404" style="max-width: 80%; height: auto;" class="img-fluid">
 </div>
 
 <br>
 
-<div class="container col-8 justify-content-center position-relative mt-4">
-    <div class="row text-center p-5">
+<div class="container col-12 col-md-12 col-lg-8 justify-content-center position-relative mt-4">
+    <div class="row text-center p-2">
     <h3>Looks like you've stumbled upon uncharted audio territory.</h3>
         <p style="color: whitesmoke;">While our intercom system won't navigate you through this 404 page, it's busy saving lives with its incredible sound technology. Now, let's steer you back on track. Hit that 'arrow' button to embark on an exhilarating journey through our campaign website, where you'll discover how our life-saving intercom system revolutionizes communication. Together, we're amplifying safety, one conversation at a time!</p>
     </div>
