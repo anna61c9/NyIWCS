@@ -14,7 +14,7 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
     <title>Terms and Conditions of Sales</title>
 
     <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
+    <meta name="author" content="IWCS">
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/terms.scss" rel="stylesheet" type="text/css">

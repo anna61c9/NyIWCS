@@ -7,7 +7,7 @@
     <title>Intercom</title>
 
     <meta name="robots" content="All">
-    <meta name="author" content="Giver">
+    <meta name="author" content="IWCS">
     <meta name="copyright" content="Information om copyright">
 
     <meta name="description"
