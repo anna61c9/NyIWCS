@@ -1,20 +1,13 @@
-<!-- Instruktion til webbrowser om at vi kører HTML5 -->
 <!DOCTYPE html>
-
-<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
 <html lang="da">
 
-<!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
 <head>
-    <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
     <meta charset="utf-8">
 
-    <!-- Titel som ses oppe i browserens tab mv. -->
     <title>Intercom</title>
 
-    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
+    <meta name="author" content="Giver">
     <meta name="copyright" content="Information om copyright">
 
     <meta name="description"
@@ -32,12 +25,8 @@
           content="A new collaboration between IWCS and Raymarine means that IWCS’ intercom can now be run on Raymarine’s screens. This makes it possible for Raymarine to utilize the effective communication system to all their users. "/>
     <meta property="og:locale" content="en_dk"/>
 
-    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
-
     <link href="css/styles.scss" rel="stylesheet" type="text/css">
 
-
-    <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body style="background-image: url(images/demoBackdrop.webp);
@@ -48,7 +37,6 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
 <div class="container-fluid col-12"></div>
 
-<!-- Back -->
 <div class="container-fluid position-relative my-2">
     <div class="row p-3">
         <div class="col">
