@@ -175,6 +175,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
         </div>
     </div>
 </div>
+</div>
 
 <div class="container-fluid col-12 d-none d-lg-block" style="height: 10rem;"></div>
 
