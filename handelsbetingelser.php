@@ -87,8 +87,6 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
 <?php include 'bottom.php'; ?>
 
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const dropdown = document.getElementById('sel1');
@@ -113,6 +111,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
             }
         });
     });
+
 </script>
 
 <script>
@@ -137,6 +136,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
+
 </script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
