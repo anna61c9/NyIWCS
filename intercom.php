@@ -64,19 +64,19 @@ background-size: cover; min-height: 100vh; background-position: center;">
         <div class="carousel-item active">
             <img src="images/UdklipA.webp" class="d-block w-100" alt="Interface">
             <div class="carousel-caption d-md-block d-lg-none">
-                <h5>Intercom controls</h5>
+
             </div>
         </div>
         <div class="carousel-item">
             <img src="images/UdklipB.webp" class="d-block w-100" alt="Interface">
             <div class="carousel-caption d-md-block d-lg-none">
-                <h5>Intercom custom</h5>
+
             </div>
         </div>
         <div class="carousel-item">
             <img src="images/UdklipC.webp" class="d-block w-100" alt="Interface">
             <div class="carousel-caption d-md-block d-lg-none">
-                <h5>Intercom settings</h5>
+
             </div>
         </div>
     </div>
