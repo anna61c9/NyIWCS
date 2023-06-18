@@ -74,13 +74,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 /* CTA */
 
-$bg: #050550;
-$white: whitesmoke;
-$black: #282936;
-
-@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
-	transition: $property $duration $ease;
-}
 
 * {
 	box-sizing: border-box;
@@ -105,6 +98,21 @@ $black: #282936;
 		height: 1vw;
 		transform: translatey(-10655%);
 
+	}
+
+}
+
+@media screen and (max-width: 1000px){
+
+	.CTA2{
+		height: 1vw;
+		justify-content: center;
+		align-items: center;
+		display: grid;
+		padding: 0;
+		--bs-gutter-x: 0rem;
+		height: 0;
+		margin-top: 4% !important;
 	}
 
 }
@@ -139,7 +147,7 @@ button {
 				top: 0;
 				bottom: 0;
 				margin: auto;
-				background: $white;
+				background: #ffffff;
 				&.arrow {
 					@include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
 					left: 0.625rem;
@@ -169,7 +177,7 @@ button {
 			bottom: 0;
 			padding: 0.75rem 0;
 			margin: 0 0 0 1.85rem;
-			color: $white;
+			color: #ffffff;
 			font-weight: 700;
 			line-height: 1.6;
 			text-align: center;
@@ -183,39 +191,16 @@ button {
 			width: 100%;
 			.icon {
 				&.arrow {
-					background: $white;
+					background: #ffffff;
 					transform: translate(1rem, 0);
 				}
 			}
 		}
 		.button-text {
-			color: $white;
+			color: #ffffff;
 		}
 	}
 }
-
-
-/*
-@supports (display: grid) {
-	body {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		grid-gap: 0.625rem;
-		grid-template-areas: ". main main ." ". main main .";
-	}
-
-	#container {
-		grid-area: main;
-		align-self: center;
-		justify-self: center;
-	}
-}*/
-
-// 5. Du kan lave styling her...
-
-
-
-/* accordion */
 
 .accordion-item {
     background-color: transparent;

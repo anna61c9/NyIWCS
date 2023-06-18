@@ -92,7 +92,9 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
 
 <div class="position-relative text-center d-none d-mb-block d-lg-block">
-    <iframe width="900" height="506,25" src="https://totallychaos.dk/Iwcs%20intercom/" title="DEMO" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="900" height="506,25" src="https://totallychaos.dk/Iwcs%20intercom/" title="DEMO"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
 </div>
 
 <div class="container">
@@ -107,10 +109,11 @@ background-size: cover; min-height: 100vh; background-position: center;">
             Explore the demo
         </div>
 
-                <div class="col-12 col-md-6 col-lg-6 text-lg-end text-md-end d-block d-mb-none d-lg-none"
-                     style="font-family: 'Bahnschrift', sans-serif; font-size: 3rem; font-weight: bolder; color: #c5e8ef;">
-                    <a href="https://totallychaos.dk/Iwcs%20intercom/?fbclid=IwAR2Hz19jfPcxvRPskJEKxO2bE9eqMF5KedEH0KRaNeQCXLuZtC4Uwsib7Fo">Try the demo</a>
-                </div>
+        <div class="col-12 col-md-6 col-lg-6 text-lg-end text-md-end d-block d-mb-none d-lg-none"
+             style="font-family: 'Bahnschrift', sans-serif; font-size: 3rem; font-weight: bolder; color: #c5e8ef;">
+            Explore the demo
+        </div>
+
 
         <div class="col-12 col-md-6 col-lg-6" style="color: #c5e8ef;">
             <br>
@@ -122,7 +125,32 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
     </div>
 </div>
+
 <br>
+<br>
+<div id="container" class="track">
+    <div class="row CTA2">
+        <div class="col col-md-8 col-lg-12 d-block d-mb-none d-lg-none">
+            <button class="learn-more">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+                <a href="https://totallychaos.dk/Iwcs%20intercom/?fbclid=IwAR2Hz19jfPcxvRPskJEKxO2bE9eqMF5KedEH0KRaNeQCXLuZtC4Uwsib7Fo"><span
+                            class="button-text">Demo</span></a>
+            </button>
+        </div>
+    </div>
+</div>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="col-12 col-md-6 col-lg-6 mx-auto d-block d-mb-none d-lg-none text-center" style="color: #c5e8ef;">
+        <p>Please use your phone in horizontal mode, for best results.</p>
+</div>
 
 <div class="container-fluid col-12" style="height: 7vh;"></div>
 
