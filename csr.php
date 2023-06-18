@@ -7,7 +7,7 @@
     <title>404</title>
 
     <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
+    <meta name="author" content="IWCS">
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/styles.scss" rel="stylesheet" type="text/css">
@@ -20,7 +20,6 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <!-- Cover -->
 <?php include 'nav.php'; ?>
 
-<div class="container-fluid col-12" style="height: 0vh;"></div>
 
 <div class="container-fluid position-relative my-3">
     <div class="row p-3">

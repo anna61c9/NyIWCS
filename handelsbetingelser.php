@@ -14,7 +14,7 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
     <title>Terms and Conditions of Sales</title>
 
     <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
+    <meta name="author" content="IWCS">
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/terms.scss" rel="stylesheet" type="text/css">
@@ -27,8 +27,6 @@ $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
 background-size: cover; min-height: 100vh; background-position: center;">
 
 <?php include 'nav.php'; ?>
-
-<div class="container-fluid col-12" style="height: 0vh;"></div>
 
 <!-- Back -->
 <div class="container-fluid position-relative my-3">

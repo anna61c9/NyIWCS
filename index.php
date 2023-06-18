@@ -7,7 +7,7 @@
     <title>IWCS</title>
 
     <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
+    <meta name="author" content="IWCS">
     <meta name="copyright" content="Information om copyright">
 
     <meta itemprop="name" content="IWCS">
@@ -133,7 +133,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
                             challenge of creating a user-friendly, intuitive, and clutter-free instrument panel.
                             This innovative technology allows for easy control of the iriSound Intelligent Intercom
                             system through the existing Multifunction Functional Display (MFD).
-                            With all of the familiar functions of iriSelect available, users can now also effortlessly
+                            With all the familiar functions of iriSelect available, users can now also effortlessly
                             manage the recording function through iriStore, mobile phone, and hailer, all controlled via
                             the MFD.
                         </div>
