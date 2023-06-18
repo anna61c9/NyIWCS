@@ -130,7 +130,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
             </div>
         </div>
 
-        <br><br><br><br><br>
+        <br><br><br><br>
 
         <div class="col-12 col-md-12 col-lg-6 mx-auto d-block d-mb-none d-lg-none" style="color: #c5e8ef;">
             <p>Use in horizontal mode, for best results.</p>
