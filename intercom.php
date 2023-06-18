@@ -114,10 +114,15 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <div class="container text position-relative d-flex justify-content-center">
     <div class="row mx-auto">
 
-        <div class="col-12 col-md-6 col-lg-6 text-lg-end text-md-end"
+        <div class="col-12 col-md-6 col-lg-6 text-lg-end text-md-end d-none d-mb-block d-lg-block"
              style="font-family: 'Bahnschrift', sans-serif; font-size: 3rem; font-weight: bolder; color: #c5e8ef;">
             Explore the demo
         </div>
+
+                <div class="col-12 col-md-6 col-lg-6 text-lg-end text-md-end d-block d-mb-none d-lg-none"
+                     style="font-family: 'Bahnschrift', sans-serif; font-size: 3rem; font-weight: bolder; color: #c5e8ef;">
+                    <a href="https://totallychaos.dk/Iwcs%20intercom/?fbclid=IwAR2Hz19jfPcxvRPskJEKxO2bE9eqMF5KedEH0KRaNeQCXLuZtC4Uwsib7Fo">Try the demo</a>
+                </div>
 
         <div class="col-12 col-md-6 col-lg-6" style="color: #c5e8ef;">
             <br>
