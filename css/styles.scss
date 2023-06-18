@@ -104,17 +104,19 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @media screen and (max-width: 1000px){
 
-	.CTA2{
-		height: 1vw;
-		justify-content: center;
-		align-items: center;
-		display: grid;
-		padding: 0;
-		--bs-gutter-x: 0rem;
-		height: 0;
-		margin-top: 4% !important;
-	}
 
+
+}
+
+.horizontal {
+	height: 1vw;
+	justify-content: center;
+	align-items: center;
+	display: grid;
+	padding: 0;
+	--bs-gutter-x: 0rem;
+	height: 0;
+	margin-top: 4% !important;
 }
 
 button {
