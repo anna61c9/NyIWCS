@@ -181,8 +181,8 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <!-- Video -->
 <section class="video container-fluid p-0">
     <video width="100%" height="100%" controls muted autoplay>
-        <source src="video/test%208.mp4" type="video/mp4">
-        <source src="video/test%208.mp4" type="video/ogg">
+        <source src="video/SoMe%20video.mp4" type="video/mp4">
+        <source src="video/SoMe%20video.mp4" type="video/ogg">
     </video>
 </section>
 
