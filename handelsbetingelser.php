@@ -4,25 +4,32 @@ require "settings/init.php";
 $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-
     <title>Terms and Conditions of Sales</title>
-
     <meta name="robots" content="All">
     <meta name="author" content="IWCS">
     <meta name="copyright" content="Information om copyright">
-
     <link href="css/terms.scss" rel="stylesheet" type="text/css">
-
-    <!-- <link rel="stylesheet" href="styles.scss"> -->
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .dropdown-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-container select {
+            width: auto;
+            max-width: 100%;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+    </style>
 </head>
+
 <body style="background-image: url(images/demoBackdrop.webp);
 background-size: cover; min-height: 100vh; background-position: center;">
 
@@ -59,8 +66,6 @@ background-size: cover; min-height: 100vh; background-position: center;">
     </form>
 </div>
 
-
-
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <div class="container-fluid col-12 position-relative" style="height: 2rem;"></div>
@@ -70,7 +75,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
     <main class="container-fluid position-relative"
           id="<?php echo strtolower(str_replace(' ', '-', $Allterms->termsName)); ?>">
         <div class="row">
-            <div class="container col-7 justify-content-center">
+            <div class="container col-7 justify-content-center p-0">
                 <h2><?php echo $Allterms->termsName; ?></h2>
                 <p class="text" style="font-size: medium; color: whitesmoke;"><?php echo $Allterms->termsDescription; ?></p>
             </div>
@@ -87,9 +92,15 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const dropdown = document.getElementById('sel1');
+        const dropdownContainer = document.querySelector('.dropdown-container');
+
+        dropdown.addEventListener('click', function () {
+            dropdownContainer.style.width = `${dropdown.offsetWidth}px`;
+        });
+
         const chapters = document.querySelectorAll('main');
 
-        dropdown.addEventListener('change', function() {
+        dropdown.addEventListener('change', function () {
             const selectedIndex = dropdown.selectedIndex;
             const selectedChapter = chapters[selectedIndex];
 
@@ -102,30 +113,32 @@ background-size: cover; min-height: 100vh; background-position: center;">
             }
         });
     });
-
 </script>
 
 <script>
-// Get the button:
-let mybutton = document.getElementById("myBtn");
+    // Get the button:
+    let mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
 
-function scrollFunction() {
-if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-mybutton.style.display = "block";
-} else {
-mybutton.style.display = "none";
-}
-}
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-document.body.scrollTop = 0; // For Safari
-document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
 </script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
