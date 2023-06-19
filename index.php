@@ -164,10 +164,10 @@ background-size: cover; min-height: 100vh; background-position: center;">
                     <div class="row">
                         <div class="col-12 m-2 col-md-8 col-lg-8">
                             <a href="https://www.linkedin.com/company/iridiumwaterproof/?originalSubdomain=dk"><img
-                                        src="images/inHvid.webp" class="img m-5" alt="linkedin" style="width: 100%"></a>
+                                        src="images/inHvid.webp" class="img m-3" alt="linkedin" style="width: 42px"></a>
 
                             <a href="https://www.youtube.com/@IWCSDenmark"><img
-                                        src="images/youtube.webp" class="img m-5 " alt="Youtube" style="width: 100%" ></a>
+                                        src="images/youtube.webp" class="img m-3" alt="Youtube" style="width: 42px"></a>
                         </div>
                     </div>
                 </div>
