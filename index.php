@@ -306,6 +306,11 @@ background-size: cover; min-height: 100vh; background-position: center;">
             <div class="row links text-center">
                 <a href="csr.php" style="color: #0c63e4;">CSR</a>
             </div>
+            <br>
+            <div class="row links text-center">
+                <a href="https://www.iwcs.eu/" style="color: #0c63e4;">www.iwcs.eu</a>
+            </div>
+
         </div>
     </div>
 </footer>
