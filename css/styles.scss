@@ -7,9 +7,7 @@ body {
 	font-family: 'Bahnschrift', sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
-	/* align-items: center; */
 }
-
 
 .bg { position: absolute; overflow: hidden; top: 0; left: 0; }
 .bgwidth { width: 100%; }
@@ -97,7 +95,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	.CTA{
 		height: 1vw;
 		transform: translatey(-10655%);
-
 	}
 
 }
@@ -323,7 +320,6 @@ main {
 		transition: opacity .3s ease-in;
 		opacity: 0.7;
 	}
-
 }
 
 
