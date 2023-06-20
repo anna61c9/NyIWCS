@@ -46,7 +46,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
 <div class="container-fluid col-12 position-relative" style="height: 6rem;"></div>
 <div class="seleclist container col-7 mt-2">
-    <form action="/action_page.php">
+    <form action="/handelsbetingelser.php">
         <label for="sel1" class="form-label">
             <div class="title">
                 <div class="container position-relative">
@@ -90,12 +90,6 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const dropdown = document.getElementById('sel1');
-        const dropdownContainer = document.querySelector('.dropdown-container');
-
-        dropdown.addEventListener('click', function () {
-            dropdownContainer.style.width = `${dropdown.offsetWidth}px`;
-        });
-
         const chapters = document.querySelectorAll('main');
 
         dropdown.addEventListener('change', function () {

@@ -1,5 +1,6 @@
 <?php
 echo '
+
 <!-- Brand -->
 <nav class="navbar navbar-light position-absolute d-none d-sm-block d-md-block d-lg-block" style="top: 0; width: 100%;">
     <div class="container-fluid">
@@ -21,5 +22,6 @@ echo '
     </div>
 </nav>';
 ?>
+
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <link href="css/styles.scss" rel="stylesheet" type="text/css">
