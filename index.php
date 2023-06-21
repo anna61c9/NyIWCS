@@ -6,7 +6,7 @@
 
     <title>IWCS</title>
 
-    <meta name="robots" content="All">
+    <meta name="robots" content="All, follow">
     <meta name="author" content="IWCS">
     <meta name="copyright" content="Information om copyright">
 
@@ -86,9 +86,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <!-- Accordion -->
 <div class="container-fluid justify-content-center">
 
-
     <div class="container-fluid col-12 d-none d-sm-none d-md-none d-lg-block" style="height: 10rem;"></div>
-
 
     <div class="row">
         <div class="col-12 col-md-8 col-lg-8 mx-auto">
@@ -255,12 +253,12 @@ background-size: cover; min-height: 100vh; background-position: center;">
                                                                                              style="width:60px;"></div>
                 <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="70" viewBox="0 0 4 422.788">
-                        <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
+                        <path id="Path_1" data-name="Path 5" d="M960,4924.056v422.788"
                               transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="5"/>
                     </svg>
                 </div>
                 <div class="block1 col-5 d-flex justify-content-flex-start align-items-center">
-                    <h5>+45 43 43 26 26</h5>
+                    <a href="tel:+4543432626"><h5>+45 43 43 26 26</h5></a>
                 </div>
             </div>
 
@@ -269,7 +267,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
                             src="images/mail.png" alt="mail" style="width:60px;"></a>
                 <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="70" viewBox="0 0 4 422.788">
-                        <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
+                        <path id="Path_2" data-name="Path 5" d="M960,4924.056v422.788"
                               transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="5"/>
                     </svg>
                 </div>
@@ -285,7 +283,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
                 <div class="block1 col-2" style="display: flex; justify-content: center; align-self: center;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="80" viewBox="0 0 4 422.788">
-                        <path id="Path_5" data-name="Path 5" d="M960,4924.056v422.788"
+                        <path id="Path_3" data-name="Path 5" d="M960,4924.056v422.788"
                               transform="translate(-958 -4924.056)" fill="none" stroke="#fff" stroke-width="5"/>
                     </svg>
                 </div>
@@ -310,7 +308,6 @@ background-size: cover; min-height: 100vh; background-position: center;">
             <div class="row links text-center">
                 <a href="https://www.iwcs.eu/" style="color: #0c63e4;">www.iwcs.eu</a>
             </div>
-
         </div>
     </div>
 </footer>

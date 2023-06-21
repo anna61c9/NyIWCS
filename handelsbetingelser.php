@@ -1,20 +1,32 @@
+<!-- Et PHP-script, der inkluderer en "init.php"-fil og udfører en SQL-forespørgsel
+for at hente data fra en database tabel kaldet "handelsbetingelser".-->
+
+<!-- $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
+Denne linje udfører en SQL-forespørgsel på en database ved hjælp af et databaseobjekt kaldet $db.
+Forespørgslen henter alle datakolonnerne (*) fra tabellen "handelsbetingelser".
+Resultatet af forespørgslen bliver gemt i variablen $handelsbetingelser. -->
+
 <?php
 require "settings/init.php";
 
 $handelsbetingelser = $db->sql("SELECT * FROM handelsbetingelser");
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
+
     <title>Terms and Conditions of Sales</title>
+
     <meta name="robots" content="All">
     <meta name="author" content="IWCS">
     <meta name="copyright" content="Information om copyright">
     <link href="css/terms.scss" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
         .dropdown-container {
             position: relative;
@@ -35,6 +47,8 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
 <?php include 'nav.php'; ?>
 
+<div class="container-fluid col-12" style="height: 0;"></div>
+
 <!-- Back -->
 <div class="container-fluid position-relative my-3">
     <div class="row p-3">
@@ -44,6 +58,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
     </div>
 </div>
 
+<!-- dropdown menu -->
 <div class="container-fluid col-12 position-relative" style="height: 6rem;"></div>
 <div class="seleclist container col-7 mt-2">
     <form action="/handelsbetingelser.php">
@@ -70,6 +85,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
 <div class="container-fluid col-12 position-relative" style="height: 2rem;"></div>
 
+<!-- Database -->
 <?php foreach ($handelsbetingelser as $Allterms) { ?>
 
     <main class="container-fluid position-relative"
@@ -85,6 +101,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 
 <div class="container-fluid col-12" style="height: 6vh;"></div>
 
+<!-- footer -->
 <?php include 'bottom.php'; ?>
 
 <script>

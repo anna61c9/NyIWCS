@@ -51,6 +51,7 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <div class="container-fluid col-12 position-relative d-none d-sm-none d-mb-none d-lg-block" style="height: 5vh;"></div>
 
 <div class="container-fluid col-12" style="height: 6vh;"></div>
+
 <?php include 'bottom.php'; ?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

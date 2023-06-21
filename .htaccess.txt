@@ -1,2 +1,1 @@
-"disablevcache" 
-"true"
+ErrorDocument 404 /csr.php
