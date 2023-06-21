@@ -88,15 +88,29 @@ background-size: cover; min-height: 100vh; background-position: center;">
 <?php include 'bottom.php'; ?>
 
 <script>
+    //lytter efter, at DOM'en (Document Object Model) er blevet indlæst. Når DOM'en er klar, udføres den tilknyttede funktion.
     document.addEventListener('DOMContentLoaded', () => {
+
+        //finder det HTML-element med id'et "sel1" og gemmer det i variablen "dropdown"
         const dropdown = document.getElementById('sel1');
+
+        //finder alle HTML-elementer, der er mærket med tagget "main" (hovedindholdet), og gemmer dem i variablen "chapters".
         const chapters = document.querySelectorAll('main');
 
+        //tilføjer en event listener til dropdown-menuen. Den lytter efter, at værdien af dropdown-menuen ændres, og udfører den tilknyttede funktion.
         dropdown.addEventListener('change', function () {
+
+            //Disse linjer gemmer indekset af den valgte værdi i dropdown-menuen i variablen "selectedIndex".
+            // Derefter gemmer den valgte sektion (afsnit) i variablen "selectedChapter" ved at bruge det tilsvarende indeks i "chapters" arrayet.
             const selectedIndex = dropdown.selectedIndex;
             const selectedChapter = chapters[selectedIndex];
 
+            //Denne linje tjekker, om der faktisk er valgt et afsnit (selectedChapter). Hvis der er, fortsættes koden inden for denne betingelse.
             if (selectedChapter) {
+
+                //Disse linjer beregner afstanden fra det øverste af dokumentet til starten af det valgte afsnit ved at bruge "offsetTop" egenskaben.
+                // Derefter ruller den visningen af vinduet glat til denne position ved hjælp af "window.scrollTo" metoden med indstillingen
+                // "behavior" sat til "smooth" for en jævn rulleeffekt.
                 const offsetTop = selectedChapter.offsetTop;
                 window.scrollTo({
                     top: offsetTop,
